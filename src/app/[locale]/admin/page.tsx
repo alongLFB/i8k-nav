@@ -533,7 +533,21 @@ export default function AdminDashboard() {
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
                 {filteredSites.map(site => (
                   <div key={site.id} className="border border-gray-200 dark:border-gray-800 rounded-xl p-4 flex gap-4 hover:shadow-md transition-shadow">
-                    <img src={site.logo_url} alt={site.name} className="w-16 h-16 rounded-xl object-cover bg-gray-100" onError={(e) => { e.currentTarget.src = '/placeholder.png' }} />
+                    <div className="w-16 h-16 rounded-xl overflow-hidden bg-gray-100 dark:bg-gray-800 shrink-0 flex items-center justify-center border border-gray-200 dark:border-gray-700">
+                      {site.logo_url ? (
+                        <img
+                          src={site.logo_url}
+                          alt={site.name}
+                          className="w-full h-full object-cover"
+                          onError={(e) => {
+                            e.currentTarget.onerror = null;
+                            e.currentTarget.src = '/placeholder.svg';
+                          }}
+                        />
+                      ) : (
+                        <span className="text-xl font-bold text-gray-400">{site.name.charAt(0)}</span>
+                      )}
+                    </div>
                     <div className="flex-1 min-w-0">
                       <div className="flex items-start justify-between gap-2">
                         <div className="truncate">
