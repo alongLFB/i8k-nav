@@ -27,9 +27,7 @@ async function d1Fetch(
       'Content-Type': 'application/json',
     },
     body: JSON.stringify({ sql, params }),
-    ...(isMutation
-      ? { cache: 'no-store' }
-      : { next: { revalidate: 3600, tags: ['d1-db'] } }),
+    cache: 'no-store',
   });
 
   if (!res.ok) {

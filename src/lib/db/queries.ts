@@ -94,33 +94,44 @@ function normalizeCategory(c: any) {
   };
 }
 
+let isSeeded = false;
+
 export async function seedDefaultData() {
+  if (isSeeded) return true;
   try {
     const existingCats = await db.select().from(categories).limit(1);
-    if (existingCats.length > 0) return true;
+    if (existingCats.length > 0) {
+      isSeeded = true;
+      return true;
+    }
 
     for (const [key, value] of Object.entries(DEFAULT_SITE_SETTINGS)) {
       await db.insert(siteSettings).values({ key, value }).onConflictDoNothing();
     }
 
-    const insertedCats = await db.insert(categories)
-      .values(DEFAULT_CATEGORIES)
-      .returning();
+    for (const cat of DEFAULT_CATEGORIES) {
+      await db.insert(categories).values(cat);
+    }
 
-    if (insertedCats.length === 0) return false;
+    const allCats = await db.select().from(categories).orderBy(asc(categories.sortOrder));
 
     const sitesToInsert = DEFAULT_SITES.map(s => {
+      const targetCat = allCats[s.categoryIndex] || allCats[0];
       const { categoryIndex, ...rest } = s;
       return {
         ...rest,
-        categoryId: insertedCats[categoryIndex].id,
+        categoryId: targetCat.id,
         tagsEn: '[]',
         descriptionEn: null,
         nameEn: null,
       };
     });
 
-    await db.insert(sites).values(sitesToInsert);
+    if (sitesToInsert.length > 0) {
+      await db.insert(sites).values(sitesToInsert);
+    }
+
+    isSeeded = true;
     return true;
   } catch (error) {
     console.warn("Failed to seed default data:", error);
