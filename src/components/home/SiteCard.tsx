@@ -22,9 +22,19 @@ export default function SiteCard({ site, locale }: { site: Site, locale: string 
   const description = locale === 'en' ? (site.description_en || site.description) : site.description;
   const gradient = site.bg_gradient || 'from-white to-gray-50 dark:from-gray-900 dark:to-gray-800';
 
+  const getHref = (rawUrl: string) => {
+    try {
+      const u = new URL(rawUrl);
+      u.searchParams.set('ref', 'i8k.alonglfb.com');
+      return u.toString();
+    } catch {
+      return rawUrl.includes('?') ? `${rawUrl}&ref=i8k.alonglfb.com` : `${rawUrl}?ref=i8k.alonglfb.com`;
+    }
+  };
+
   return (
     <motion.a
-      href={`${site.url}?ref=i8k.tv`}
+      href={getHref(site.url)}
       target="_blank"
       rel="noopener noreferrer"
       initial={{ opacity: 0, y: 20 }}
