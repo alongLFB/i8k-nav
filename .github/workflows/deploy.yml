@@ -1,0 +1,78 @@
+name: Deploy to Server
+
+on:
+  push:
+    branches:
+      - main # 触发分支（若使用 master 请修改为 master）
+  workflow_dispatch: # 支持在 GitHub Actions 页面手动点击 Run workflow 触发
+
+concurrency:
+  group: deploy-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    name: Deploy i8k-nav via Docker Compose
+    runs-on: ubuntu-latest
+    steps:
+      - name: Prepare Environment Secret
+        id: env_prep
+        env:
+          RAW_ENV: ${{ secrets.ENV_FILE }}
+        run: |
+          if [ -n "$RAW_ENV" ]; then
+            B64=$(printf "%s" "$RAW_ENV" | base64 -w 0)
+            echo "ENV_B64=$B64" >> "$GITHUB_OUTPUT"
+            echo "HAS_ENV=1" >> "$GITHUB_OUTPUT"
+          else
+            echo "ENV_B64=" >> "$GITHUB_OUTPUT"
+            echo "HAS_ENV=0" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: SSH and Deploy
+        uses: appleboy/ssh-action@v1.0.3
+        env:
+          ENV_B64: ${{ steps.env_prep.outputs.ENV_B64 }}
+          HAS_ENV: ${{ steps.env_prep.outputs.HAS_ENV }}
+        with:
+          host: ${{ secrets.SERVER_HOST }}     # 服务器 IP
+          username: ${{ secrets.SERVER_USER }} # 服务器用户名 (如 root)
+          key: ${{ secrets.SERVER_SSH_KEY }}   # 服务器 SSH 私钥
+          port: ${{ secrets.SERVER_PORT || 22 }} # SSH 端口 (默认 22)
+          envs: ENV_B64,HAS_ENV
+          script: |
+            set -euo pipefail
+            mkdir -p ~/github
+            cd ~/github
+            
+            # 如果不存在该目录则自动克隆仓库
+            if [ ! -d "i8k-nav" ]; then
+              git clone https://github.com/alongLFB/i8k-nav.git
+            fi
+            cd i8k-nav
+            
+            # 同步最新代码
+            git fetch origin main
+            git reset --hard origin/main
+
+            # 如果在 GitHub Secrets 中配置了 ENV_FILE，则同步写入服务器 .env；否则保留服务器原有 .env
+            if [ "${HAS_ENV:-0}" = "1" ] && [ -n "${ENV_B64:-}" ]; then
+              echo "==> Updating .env from GitHub Secrets..."
+              echo "$ENV_B64" | base64 -d > .env
+            else
+              echo "==> No GitHub Secrets ENV_FILE configured, keeping existing server .env..."
+            fi
+
+            # 停止可能存在的历史 PM2 进程（若有）
+            if command -v pm2 &> /dev/null; then
+              pm2 stop i8k-nav 2>/dev/null || true
+              pm2 delete i8k-nav 2>/dev/null || true
+            fi
+
+            # 使用 Docker Compose 自动化部署
+            echo "==> Deploying with Docker Compose..."
+            docker compose down 2>/dev/null || true
+            docker compose up -d --build
+            docker image prune -f
+            
+            echo "==> i8k-nav deployment completed successfully!"

@@ -190,6 +190,9 @@ i8k-nav/
 │       │   ├── queries.ts        # 数据库 CRUD 查询与默认回退数据
 │       │   └── schema.ts         # Drizzle ORM 数据表 Schema 定义
 │       └── i18n/                 # 国际化配置与中间件工具
+├── .github/
+│   └── workflows/
+│       └── deploy.yml            # GitHub Actions 自动化 SSH + Docker Compose 部署流水线
 ├── middleware.ts                 # Next.js 路由守卫与 i18n 拦截中间件
 ├── drizzle.config.ts             # Drizzle Kit 配置文件
 ├── next.config.ts                # Next.js 核心配置文件
