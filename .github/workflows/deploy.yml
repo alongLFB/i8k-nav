@@ -45,6 +45,9 @@ jobs:
             mkdir -p ~/github
             cd ~/github
             
+            # 优化 Git 传输协议，强制使用 HTTP/1.1 避免 Ubuntu 24.04 与 GitHub 之间的 HTTP/2 多路复用卡死
+            git config --global http.version HTTP/1.1
+
             # 如果不存在该目录则自动克隆仓库
             if [ ! -d "i8k-nav" ]; then
               git clone https://github.com/alongLFB/i8k-nav.git
