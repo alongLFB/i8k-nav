@@ -495,11 +495,11 @@ export default function AdminDashboard() {
                   <select
                     value={siteFilterCategoryId}
                     onChange={(e) => setSiteFilterCategoryId(e.target.value === 'all' ? 'all' : Number(e.target.value))}
-                    className="w-full sm:w-auto px-4 py-2 rounded-lg border border-gray-300 dark:border-gray-700 bg-transparent outline-none focus:ring-2 focus:ring-orange-500"
+                    className="w-full sm:w-auto px-4 py-2 rounded-lg border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-100 outline-none focus:ring-2 focus:ring-orange-500 shadow-sm cursor-pointer"
                   >
-                    <option value="all">所有分类</option>
+                    <option value="all" className="bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-100">所有分类</option>
                     {categories.map(cat => (
-                      <option key={cat.id} value={cat.id}>{cat.emoji} {cat.title}</option>
+                      <option key={cat.id} value={cat.id} className="bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-100">{cat.emoji} {cat.title}</option>
                     ))}
                   </select>
                   <button
@@ -649,10 +649,10 @@ export default function AdminDashboard() {
               
               <div>
                 <label className="block text-sm font-medium mb-1">所属分类</label>
-                <select required value={editingSite.category_id} onChange={e => setEditingSite({...editingSite, category_id: Number(e.target.value)})} className="w-full px-3 py-2 rounded-lg border border-gray-300 dark:border-gray-700 bg-transparent outline-none focus:ring-2 focus:ring-orange-500">
-                  <option value="">请选择分类</option>
+                <select required value={editingSite.category_id} onChange={e => setEditingSite({...editingSite, category_id: Number(e.target.value)})} className="w-full px-3 py-2 rounded-lg border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-100 outline-none focus:ring-2 focus:ring-orange-500 cursor-pointer">
+                  <option value="" className="bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-100">请选择分类</option>
                   {categories.map(cat => (
-                    <option key={cat.id} value={cat.id}>{cat.emoji} {cat.title}</option>
+                    <option key={cat.id} value={cat.id} className="bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-100">{cat.emoji} {cat.title}</option>
                   ))}
                 </select>
               </div>

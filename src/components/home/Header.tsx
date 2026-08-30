@@ -148,12 +148,12 @@ export default function Header({ onSearch, settings }: HeaderProps) {
                     id="search-engine"
                     value={engine}
                     onChange={(e) => setEngine(e.target.value)}
-                    className="appearance-none bg-transparent px-2 py-3 text-sm font-medium text-gray-700 outline-none cursor-pointer dark:text-gray-300 hover:text-orange-600 dark:hover:text-orange-400"
+                    className="appearance-none bg-white dark:bg-gray-800 px-2 py-3 text-sm font-medium text-gray-700 outline-none cursor-pointer dark:text-gray-300 hover:text-orange-600 dark:hover:text-orange-400"
                     title="选择搜索类型"
                   >
-                    <option value="site">{tHome('search_engine_site')}</option>
-                    <option value="douban">{tHome('search_engine_douban')}</option>
-                    <option value="imdb">{tHome('search_engine_imdb')}</option>
+                    <option value="site" className="bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-100">{tHome('search_engine_site')}</option>
+                    <option value="douban" className="bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-100">{tHome('search_engine_douban')}</option>
+                    <option value="imdb" className="bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-100">{tHome('search_engine_imdb')}</option>
                   </select>
                   <svg className="w-4 h-4 text-gray-400 pointer-events-none" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7" />
