@@ -1,0 +1,124 @@
+'use client';
+
+import { useState } from 'react';
+import { useRouter } from 'next/navigation';
+import { useTranslations, useLocale } from 'next-intl';
+import { Shield, Loader2, Eye, EyeOff, ArrowLeft } from 'lucide-react';
+import Link from 'next/link';
+
+export default function AdminLogin() {
+  const [password, setPassword] = useState('');
+  const [loading, setLoading] = useState(false);
+  const [error, setError] = useState('');
+  const [remainingAttempts, setRemainingAttempts] = useState<number | null>(null);
+  const [lockoutTime, setLockoutTime] = useState<number | null>(null);
+  const [showPassword, setShowPassword] = useState(false);
+  const router = useRouter();
+  const t = useTranslations('login');
+  const locale = useLocale();
+
+  const handleSubmit = async (e: React.FormEvent) => {
+    e.preventDefault();
+    if (lockoutTime && Date.now() < lockoutTime) {
+      setError(t('lockedOut'));
+      return;
+    }
+
+    setLoading(true);
+    setError('');
+
+    try {
+      const res = await fetch('/api/auth/login', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({ password }),
+      });
+
+      const data = await res.json();
+
+      if (res.ok) {
+        router.push(`/${locale}/admin`);
+      } else {
+        setError(data.message || t('error'));
+        if (data.remainingAttempts !== undefined) {
+          setRemainingAttempts(data.remainingAttempts);
+        }
+        if (data.lockoutTime !== undefined) {
+          setLockoutTime(data.lockoutTime);
+        }
+      }
+    } catch (err) {
+      setError(t('networkError'));
+    } finally {
+      setLoading(false);
+    }
+  };
+
+  return (
+    <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-orange-50 to-red-50 dark:from-orange-950/20 dark:to-red-950/20">
+      <div className="w-full max-w-md p-8 bg-white dark:bg-gray-900 rounded-3xl shadow-xl border border-gray-100 dark:border-gray-800">
+        <div className="flex flex-col items-center mb-8">
+          <div className="w-16 h-16 bg-gradient-to-br from-orange-400 to-red-500 rounded-2xl flex items-center justify-center shadow-lg mb-4 text-white">
+            <Shield size={32} />
+          </div>
+          <h1 className="text-2xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-orange-500 to-red-500">
+            i8K影视导航 · 管理后台
+          </h1>
+          <p className="text-gray-500 dark:text-gray-400 mt-2 text-sm">{t('subtitle')}</p>
+        </div>
+
+        <form onSubmit={handleSubmit} className="space-y-6">
+          <div>
+            <div className="relative">
+              <input
+                type={showPassword ? 'text' : 'password'}
+                value={password}
+                onChange={(e) => setPassword(e.target.value)}
+                placeholder={t('passwordPlaceholder')}
+                className="w-full pl-4 pr-12 py-3 rounded-xl border border-gray-200 dark:border-gray-700 bg-gray-50 dark:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-orange-500 dark:text-white transition-all"
+                disabled={loading || (lockoutTime !== null && Date.now() < lockoutTime)}
+              />
+              <button
+                type="button"
+                onClick={() => setShowPassword(!showPassword)}
+                className="absolute right-4 top-1/2 -translate-y-1/2 text-gray-400 hover:text-gray-600 dark:hover:text-gray-200"
+              >
+                {showPassword ? <EyeOff size={20} /> : <Eye size={20} />}
+              </button>
+            </div>
+          </div>
+
+          {error && (
+            <div className="p-4 rounded-xl bg-red-50 dark:bg-red-900/30 text-red-600 dark:text-red-400 text-sm flex flex-col gap-1">
+              <span className="font-medium">{error}</span>
+              {remainingAttempts !== null && (
+                <span>{t('remainingAttempts', { count: remainingAttempts })}</span>
+              )}
+            </div>
+          )}
+
+          <button
+            type="submit"
+            disabled={loading || (lockoutTime !== null && Date.now() < lockoutTime) || !password}
+            className="w-full py-3 px-4 bg-gradient-to-r from-orange-500 to-red-500 hover:from-orange-600 hover:to-red-600 text-white rounded-xl font-medium shadow-md shadow-orange-500/20 focus:outline-none focus:ring-2 focus:ring-orange-500 focus:ring-offset-2 disabled:opacity-50 disabled:cursor-not-allowed transition-all flex items-center justify-center gap-2"
+          >
+            {loading && <Loader2 size={20} className="animate-spin" />}
+            {loading ? t('loading') : t('submit')}
+          </button>
+        </form>
+
+        <div className="mt-8 flex justify-center">
+          <Link
+            href={`/${locale}`}
+            className="flex items-center gap-2 text-sm text-gray-500 hover:text-orange-500 dark:text-gray-400 dark:hover:text-orange-400 transition-colors"
+          >
+            <ArrowLeft size={16} />
+            {t('backToHome')}
+          </Link>
+        </div>
+      </div>
+    </div>
+  );
+}

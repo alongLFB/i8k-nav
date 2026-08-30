@@ -1,0 +1,117 @@
+{
+  "nav": {
+    "home": "Home",
+    "admin": "Admin",
+    "about": "About",
+    "subtitle_tools": "Subtitle Tools",
+    "subtitle_download": "Subtitle Download",
+    "theme_light": "Switch to Light Mode",
+    "theme_dark": "Switch to Dark Mode",
+    "language": "Switch Language"
+  },
+  "home": {
+    "site_count_prefix": "A total of",
+    "site_count_suffix": "premium video sites included",
+    "all_categories": "All",
+    "search_placeholder": "Search video sites...",
+    "search_engine_site": "Site",
+    "search_engine_douban": "Douban",
+    "search_engine_imdb": "IMDb",
+    "hot": "HOT",
+    "recommended": "⭐ Recommended",
+    "visit_site": "Visit Site",
+    "loading": "Loading data..."
+  },
+  "about": {
+    "title": "About i8K Video Nav",
+    "description": "i8K Video Nav gathers the highest quality free video websites on the internet."
+  },
+  "admin": {
+    "loading": "Loading admin dashboard...",
+    "dashboard_title": "i8K Video Nav · Admin Dashboard",
+    "dashboard_subtitle": "Category Management and Video Sites Control Panel",
+    "preview_site": "Preview Site",
+    "logout": "Logout",
+    "load_error": "Failed to load data",
+    "fetch_sites_error": "Failed to fetch sites list",
+    "category_save_success": "Category saved successfully!",
+    "category_delete_success": "Category deleted!",
+    "site_save_success": "Site saved successfully!",
+    "site_delete_success": "Site deleted!",
+    "op_failed": "Operation failed",
+    "tabs": {
+      "settings": "Global Settings",
+      "categories": "Category Management",
+      "sites": "Site Management"
+    },
+    "settings": {
+      "card_title": "Basic Site Settings (Bilingual)",
+      "site_title": "Site Title (ZH)",
+      "site_title_en": "Site Title (EN)",
+      "site_subtitle": "Site Subtitle (ZH)",
+      "site_subtitle_en": "Site Subtitle (EN)",
+      "footer_copyright": "Footer Copyright (ZH)",
+      "footer_copyright_en": "Footer Copyright (EN)",
+      "save_btn": "Save Settings",
+      "save_success": "Settings saved successfully!"
+    },
+    "categories": {
+      "list_title": "Category List",
+      "add_btn": "Add Category",
+      "sort_order": "Sort Weight",
+      "modal_add": "Add Category",
+      "modal_edit": "Edit Category",
+      "title_zh": "Category Name (ZH)",
+      "title_en": "Category Name (EN)",
+      "emoji_label": "Emoji Icon",
+      "sort_hint": "Sort Weight (smaller number comes first)",
+      "cancel": "Cancel",
+      "save": "Save",
+      "delete_confirm": "Are you sure you want to delete this category and all its sites?"
+    },
+    "sites": {
+      "select_category": "Select Category:",
+      "add_btn": "Add Site",
+      "sort_order": "Sort Order",
+      "modal_add": "Add Site",
+      "modal_edit": "Edit Site",
+      "category_belong": "Category",
+      "name_zh": "Site Name (ZH)",
+      "name_en": "Site Name (EN)",
+      "desc_zh": "Description (ZH)",
+      "desc_en": "Description (EN)",
+      "url_label": "Site URL",
+      "logo_url_label": "Logo URL (favicon)",
+      "tags_zh": "Tags (ZH, comma separated)",
+      "tags_en": "Tags (EN, comma separated)",
+      "rating_label": "Star Rating (0-5)",
+      "is_hot": "HOT Mark",
+      "is_recommended": "Recommended Mark",
+      "bg_gradient": "Background Gradient CSS",
+      "delete_confirm": "Are you sure you want to delete this site?"
+    }
+  },
+  "login": {
+    "title": "i8K Video Nav · Admin Login",
+    "subtitle": "Please enter password to access admin system",
+    "password_label": "Admin Password",
+    "password_placeholder": "Enter admin password...",
+    "passwordPlaceholder": "Enter admin password...",
+    "submit_btn": "Login",
+    "submit": "Login",
+    "submitting": "Verifying...",
+    "loading": "Verifying...",
+    "success": "Login successful! Redirecting...",
+    "attempt_left": "Incorrect password! {count} attempts left",
+    "remainingAttempts": "{count} attempts left",
+    "locked": "Too many failed attempts, please try again in 15 minutes",
+    "lockedOut": "Too many failed attempts, please try again in 15 minutes",
+    "error": "Login failed, please try again",
+    "networkError": "Network error, please check connection",
+    "back_to_home": "← Back to Home",
+    "backToHome": "← Back to Home"
+  },
+  "footer": {
+    "copyright": "© 2026 i8K Video Nav. All rights reserved."
+  }
+}

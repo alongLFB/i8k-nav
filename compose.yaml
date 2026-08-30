@@ -1,0 +1,21 @@
+services:
+  i8k-nav:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: i8k-nav
+    restart: unless-stopped
+    ports:
+      - "${PORT:-3026}:3026"
+    env_file:
+      - .env
+    environment:
+      - NODE_ENV=production
+      - PORT=3026
+      - HOSTNAME=0.0.0.0
+    healthcheck:
+      test: ["CMD-SHELL", "wget -qO- http://127.0.0.1:3026/ || exit 1"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+      start_period: 20s

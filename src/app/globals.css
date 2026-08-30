@@ -1,0 +1,37 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --color-i8k-orange: #f97316;
+  --color-i8k-red: #ef4444;
+  --color-i8k-gradient-start: #f97316;
+  --color-i8k-gradient-end: #dc2626;
+}
+
+:root {
+  --background: #f8fafc;
+  --foreground: #0f172a;
+}
+
+.dark {
+  --background: #030712;
+  --foreground: #f8fafc;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  transition: background-color 0.3s ease, color 0.3s ease;
+  min-height: 100vh;
+}
+
+.dark body {
+  background-image: radial-gradient(circle at 50% 0%, rgba(249,115,22,0.08) 0%, transparent 50%);
+  background-attachment: fixed;
+}
+
+:root:not(.dark) body {
+  background-image: linear-gradient(to bottom right, #f8fafc, #eff6ff);
+  background-attachment: fixed;
+}

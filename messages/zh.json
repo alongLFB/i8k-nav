@@ -1,0 +1,117 @@
+{
+  "nav": {
+    "home": "首页",
+    "admin": "管理后台",
+    "about": "关于",
+    "subtitle_tools": "字幕工具箱",
+    "subtitle_download": "字幕下载",
+    "theme_light": "切换至浅色模式",
+    "theme_dark": "切换至暗色模式",
+    "language": "语言切换"
+  },
+  "home": {
+    "site_count_prefix": "共收录",
+    "site_count_suffix": "个优质影视网站",
+    "all_categories": "全部",
+    "search_placeholder": "站内搜索影视网站...",
+    "search_engine_site": "站内",
+    "search_engine_douban": "豆瓣",
+    "search_engine_imdb": "IMDb",
+    "hot": "HOT",
+    "recommended": "⭐ 推荐",
+    "visit_site": "访问网站",
+    "loading": "数据加载中..."
+  },
+  "about": {
+    "title": "关于 i8K影视导航",
+    "description": "i8K影视导航汇聚全网最优质的免费影视网站。"
+  },
+  "admin": {
+    "loading": "管理后台加载中...",
+    "dashboard_title": "i8K影视导航 · 后台管理",
+    "dashboard_subtitle": "分类管理与影视网站全能控制面板",
+    "preview_site": "预览前台",
+    "logout": "退出登录",
+    "load_error": "加载数据失败",
+    "fetch_sites_error": "获取网站列表失败",
+    "category_save_success": "分类保存成功！",
+    "category_delete_success": "分类已删除！",
+    "site_save_success": "网站保存成功！",
+    "site_delete_success": "网站已删除！",
+    "op_failed": "操作失败",
+    "tabs": {
+      "settings": "全站设置",
+      "categories": "分类管理",
+      "sites": "网站管理"
+    },
+    "settings": {
+      "card_title": "站点基础设置 (中英文)",
+      "site_title": "站点标题 (中文)",
+      "site_title_en": "站点标题 (英文)",
+      "site_subtitle": "站点副标题 (中文)",
+      "site_subtitle_en": "站点副标题 (英文)",
+      "footer_copyright": "页脚版权 (中文)",
+      "footer_copyright_en": "页脚版权 (英文)",
+      "save_btn": "保存设置",
+      "save_success": "设置保存成功！"
+    },
+    "categories": {
+      "list_title": "分类列表",
+      "add_btn": "新增分类",
+      "sort_order": "排序权重",
+      "modal_add": "新增分类",
+      "modal_edit": "编辑分类",
+      "title_zh": "中文分类名称",
+      "title_en": "英文分类名称",
+      "emoji_label": "Emoji 图标",
+      "sort_hint": "排序权重 (数字越小越靠前)",
+      "cancel": "取消",
+      "save": "保存",
+      "delete_confirm": "确定要删除该分类及其下所有网站吗？"
+    },
+    "sites": {
+      "select_category": "选择分类：",
+      "add_btn": "新增网站",
+      "sort_order": "排序",
+      "modal_add": "新增网站",
+      "modal_edit": "编辑网站",
+      "category_belong": "所属分类",
+      "name_zh": "网站名称 (中文)",
+      "name_en": "网站名称 (英文)",
+      "desc_zh": "描述 (中文)",
+      "desc_en": "描述 (英文)",
+      "url_label": "网站 URL",
+      "logo_url_label": "Logo URL (favicon)",
+      "tags_zh": "标签 (中文，逗号分隔)",
+      "tags_en": "标签 (英文，逗号分隔)",
+      "rating_label": "星级评分 (0-5)",
+      "is_hot": "HOT 标记",
+      "is_recommended": "推荐标记",
+      "bg_gradient": "背景渐变 CSS",
+      "delete_confirm": "确定要删除该网站吗？"
+    }
+  },
+  "login": {
+    "title": "i8K影视导航 · 管理后台",
+    "subtitle": "请输入密码进入管理系统",
+    "password_label": "管理员密码",
+    "password_placeholder": "请输入管理员密码...",
+    "passwordPlaceholder": "请输入管理员密码...",
+    "submit_btn": "登录",
+    "submit": "登录",
+    "submitting": "验证中...",
+    "loading": "验证中...",
+    "success": "登录成功！正在跳转...",
+    "attempt_left": "密码错误！还可重试 {count} 次",
+    "remainingAttempts": "还可重试 {count} 次",
+    "locked": "登录失败次数过多，请 15 分钟后重试",
+    "lockedOut": "登录失败次数过多，请 15 分钟后重试",
+    "error": "登录失败，请重试",
+    "networkError": "网络错误，请检查连接",
+    "back_to_home": "← 返回首页",
+    "backToHome": "← 返回首页"
+  },
+  "footer": {
+    "copyright": "© 2026 i8K影视导航. All rights reserved."
+  }
+}
