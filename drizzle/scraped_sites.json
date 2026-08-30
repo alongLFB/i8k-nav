@@ -1,0 +1,1801 @@
+[
+  {
+    "name": "字幕工具箱",
+    "url": "https://zm.i8k.tv/",
+    "description": "字幕工具箱 - 优质影视资源导航推荐",
+    "logoUrl": "https://zm.i8k.tv/favicon.ico",
+    "tags": [
+      "免费",
+      "高清"
+    ],
+    "rating": 5,
+    "isHot": false,
+    "isRecommended": false,
+    "bgGradient": "from-rose-50/40 to-pink-50/40 dark:from-rose-950/20 dark:to-pink-950/20",
+    "categoryName": "字幕资源"
+  },
+  {
+    "name": "字幕下载",
+    "url": "https://downsub.com/",
+    "description": "字幕下载 - 优质影视资源导航推荐",
+    "logoUrl": "https://downsub.com/favicon.ico",
+    "tags": [
+      "免费",
+      "高清"
+    ],
+    "rating": 5,
+    "isHot": false,
+    "isRecommended": false,
+    "bgGradient": "from-orange-50/40 to-red-50/40 dark:from-orange-950/20 dark:to-red-950/20",
+    "categoryName": "字幕资源"
+  },
+  {
+    "name": "饭搭子影视",
+    "url": "https://fdzys666.xyz/",
+    "description": "饭搭子影视",
+    "logoUrl": "https://fdzys.net/template/mizhiady/statics/images/logo_blue.png",
+    "tags": [
+      "最新",
+      "4K",
+      "资源丰富",
+      "高清"
+    ],
+    "rating": 5,
+    "isHot": true,
+    "isRecommended": true,
+    "bgGradient": "from-purple-50/40 to-pink-50/40 dark:from-purple-950/20 dark:to-pink-950/20",
+    "categoryName": "综合影视"
+  },
+  {
+    "name": "巅峰剧单——9分好剧",
+    "url": "https://best.i8k.tv/",
+    "description": "巅峰剧单——9分好剧",
+    "logoUrl": "https://best.i8k.tv/favicon.ico",
+    "tags": [
+      "经典",
+      "4K",
+      "9分好剧",
+      "高清"
+    ],
+    "rating": 5,
+    "isHot": true,
+    "isRecommended": true,
+    "bgGradient": "from-green-50/40 to-emerald-50/40 dark:from-green-950/20 dark:to-emerald-950/20",
+    "categoryName": "电视剧"
+  },
+  {
+    "name": "低端影视",
+    "url": "https://ddys.io/",
+    "description": "低端影视",
+    "logoUrl": "https://ddys.io/favicon.ico",
+    "tags": [
+      "免费",
+      "资源丰富"
+    ],
+    "rating": 5,
+    "isHot": false,
+    "isRecommended": true,
+    "bgGradient": "from-cyan-50/40 to-blue-50/40 dark:from-cyan-950/20 dark:to-blue-950/20",
+    "categoryName": "综合影视"
+  },
+  {
+    "name": "SeedHub",
+    "url": "https://www.seedhub.cc/",
+    "description": "SeedHub",
+    "logoUrl": "https://www.seedhub.cc/favicon.ico",
+    "tags": [
+      "动漫",
+      "综合",
+      "支持下载"
+    ],
+    "rating": 5,
+    "isHot": true,
+    "isRecommended": true,
+    "bgGradient": "from-indigo-50/40 to-purple-50/40 dark:from-indigo-950/20 dark:to-purple-950/20",
+    "categoryName": "动漫动画"
+  },
+  {
+    "name": "好恐怖影院",
+    "url": "https://www.haokongbu.top/",
+    "description": "好恐怖影院",
+    "logoUrl": "https://www.haokongbu.top/favicon.ico",
+    "tags": [
+      "下载"
+    ],
+    "rating": 5,
+    "isHot": false,
+    "isRecommended": true,
+    "bgGradient": "from-amber-50/40 to-orange-50/40 dark:from-amber-950/20 dark:to-orange-950/20",
+    "categoryName": "电影专区"
+  },
+  {
+    "name": "播剧网",
+    "url": "https://www.ysxq.cc/",
+    "description": "播剧网",
+    "logoUrl": "https://www.ysxq.cc/favicon.ico",
+    "tags": [
+      "免费",
+      "无广告",
+      "资源丰富"
+    ],
+    "rating": 5,
+    "isHot": true,
+    "isRecommended": true,
+    "bgGradient": "from-sky-50/40 to-blue-50/40 dark:from-sky-950/20 dark:to-blue-950/20",
+    "categoryName": "综合影视"
+  },
+  {
+    "name": "爱壹帆",
+    "url": "https://www.iyf.tv/",
+    "description": "爱壹帆",
+    "logoUrl": "https://www.iyf.tv/favicon.ico",
+    "tags": [
+      "免费",
+      "资源丰富"
+    ],
+    "rating": 5,
+    "isHot": false,
+    "isRecommended": true,
+    "bgGradient": "from-rose-50/40 to-pink-50/40 dark:from-rose-950/20 dark:to-pink-950/20",
+    "categoryName": "综合影视"
+  },
+  {
+    "name": "飞快TV",
+    "url": "https://feikuai.tv/",
+    "description": "飞快TV",
+    "logoUrl": "https://www.feikuai.tv/favicon.ico",
+    "tags": [
+      "免费",
+      "资源丰富"
+    ],
+    "rating": 5,
+    "isHot": false,
+    "isRecommended": true,
+    "bgGradient": "from-orange-50/40 to-red-50/40 dark:from-orange-950/20 dark:to-red-950/20",
+    "categoryName": "综合影视"
+  },
+  {
+    "name": "网飞猫",
+    "url": "https://ncat22.com/",
+    "description": "网飞猫",
+    "logoUrl": "https://vf.zclmjc.com/vod_pc_static_ncat/images/favicon.ico?ver=ggewasd",
+    "tags": [
+      "免费",
+      "资源丰富"
+    ],
+    "rating": 5,
+    "isHot": false,
+    "isRecommended": true,
+    "bgGradient": "from-purple-50/40 to-pink-50/40 dark:from-purple-950/20 dark:to-pink-950/20",
+    "categoryName": "综合影视"
+  },
+  {
+    "name": "电影先生",
+    "url": "https://dyxs39.com/",
+    "description": "电影先生",
+    "logoUrl": "https://dyxs39.com/favicon.ico",
+    "tags": [
+      "免费",
+      "资源丰富"
+    ],
+    "rating": 5,
+    "isHot": false,
+    "isRecommended": true,
+    "bgGradient": "from-green-50/40 to-emerald-50/40 dark:from-green-950/20 dark:to-emerald-950/20",
+    "categoryName": "电影专区"
+  },
+  {
+    "name": "磁力熊",
+    "url": "https://www.cilixiong.org/",
+    "description": "磁力熊",
+    "logoUrl": "https://www.cilixiong.org/favicon.ico",
+    "tags": [
+      "免费",
+      "资源丰富"
+    ],
+    "rating": 5,
+    "isHot": false,
+    "isRecommended": true,
+    "bgGradient": "from-cyan-50/40 to-blue-50/40 dark:from-cyan-950/20 dark:to-blue-950/20",
+    "categoryName": "网盘资源"
+  },
+  {
+    "name": "可可影视",
+    "url": "https://www.kkys02.com/",
+    "description": "可可影视",
+    "logoUrl": "https://www.kkys02.com/favicon.ico",
+    "tags": [
+      "免费",
+      "资源丰富"
+    ],
+    "rating": 5,
+    "isHot": false,
+    "isRecommended": true,
+    "bgGradient": "from-indigo-50/40 to-purple-50/40 dark:from-indigo-950/20 dark:to-purple-950/20",
+    "categoryName": "综合影视"
+  },
+  {
+    "name": "爱看机器人",
+    "url": "https://v.ikanbot.com/",
+    "description": "爱看机器人",
+    "logoUrl": "https://v.ikanbot.com/favicon.ico",
+    "tags": [
+      "免费",
+      "资源丰富"
+    ],
+    "rating": 5,
+    "isHot": false,
+    "isRecommended": true,
+    "bgGradient": "from-amber-50/40 to-orange-50/40 dark:from-amber-950/20 dark:to-orange-950/20",
+    "categoryName": "综合影视"
+  },
+  {
+    "name": "修罗影视",
+    "url": "https://xl01.com.de/",
+    "description": "修罗影视",
+    "logoUrl": "https://xl01.com.de/images/favicon.png",
+    "tags": [
+      "免费",
+      "资源丰富"
+    ],
+    "rating": 5,
+    "isHot": false,
+    "isRecommended": true,
+    "bgGradient": "from-sky-50/40 to-blue-50/40 dark:from-sky-950/20 dark:to-blue-950/20",
+    "categoryName": "综合影视"
+  },
+  {
+    "name": "注视影视",
+    "url": "https://gaze.run/",
+    "description": "注视影视",
+    "logoUrl": "https://gaze.run/favicon.ico",
+    "tags": [
+      "免费",
+      "资源丰富"
+    ],
+    "rating": 5,
+    "isHot": false,
+    "isRecommended": true,
+    "bgGradient": "from-rose-50/40 to-pink-50/40 dark:from-rose-950/20 dark:to-pink-950/20",
+    "categoryName": "综合影视"
+  },
+  {
+    "name": "剧爷爷",
+    "url": "https://www.juyeye.cc/",
+    "description": "剧爷爷",
+    "logoUrl": "https://www.juyeye.cc/favicon.ico",
+    "tags": [
+      "只支持手机端"
+    ],
+    "rating": 5,
+    "isHot": true,
+    "isRecommended": true,
+    "bgGradient": "from-orange-50/40 to-red-50/40 dark:from-orange-950/20 dark:to-red-950/20",
+    "categoryName": "综合影视"
+  },
+  {
+    "name": "兄弟盘",
+    "url": "https://xiongdipan.com/",
+    "description": "兄弟盘",
+    "logoUrl": "https://xiongdipan.com/favicon.ico",
+    "tags": [
+      "免费",
+      "无广告",
+      "百度盘"
+    ],
+    "rating": 5,
+    "isHot": false,
+    "isRecommended": true,
+    "bgGradient": "from-purple-50/40 to-pink-50/40 dark:from-purple-950/20 dark:to-pink-950/20",
+    "categoryName": "综合影视"
+  },
+  {
+    "name": "迪士尼Disney+",
+    "url": "https://www.disneyplus.com/zh-hk/",
+    "description": "迪士尼Disney+",
+    "logoUrl": "https://www.disneyplus.com/favicon.ico",
+    "tags": [
+      "Disney",
+      "海外资源"
+    ],
+    "rating": 5,
+    "isHot": false,
+    "isRecommended": true,
+    "bgGradient": "from-green-50/40 to-emerald-50/40 dark:from-green-950/20 dark:to-emerald-950/20",
+    "categoryName": "综合影视"
+  },
+  {
+    "name": "奈飞Netflix",
+    "url": "https://www.netflix.com/hk/",
+    "description": "奈飞Netflix",
+    "logoUrl": "https://www.netflix.com/favicon.ico",
+    "tags": [
+      "Netflix",
+      "海外资源"
+    ],
+    "rating": 5,
+    "isHot": false,
+    "isRecommended": true,
+    "bgGradient": "from-cyan-50/40 to-blue-50/40 dark:from-cyan-950/20 dark:to-blue-950/20",
+    "categoryName": "综合影视"
+  },
+  {
+    "name": "哔哩哔哩",
+    "url": "https://www.bilibili.com/",
+    "description": "哔哩哔哩",
+    "logoUrl": "https://www.bilibili.com/favicon.ico",
+    "tags": [
+      "弹幕"
+    ],
+    "rating": 5,
+    "isHot": false,
+    "isRecommended": true,
+    "bgGradient": "from-indigo-50/40 to-purple-50/40 dark:from-indigo-950/20 dark:to-purple-950/20",
+    "categoryName": "综合影视"
+  },
+  {
+    "name": "全球电影票房",
+    "url": "https://www.boxofficemojo.com/",
+    "description": "全球电影票房",
+    "logoUrl": "https://www.boxofficemojo.com/favicon.ico",
+    "tags": [
+      "票房排行"
+    ],
+    "rating": 5,
+    "isHot": false,
+    "isRecommended": true,
+    "bgGradient": "from-amber-50/40 to-orange-50/40 dark:from-amber-950/20 dark:to-orange-950/20",
+    "categoryName": "电影专区"
+  },
+  {
+    "name": "追影猫",
+    "url": "https://zhuiyingmao3.com/",
+    "description": "追影猫",
+    "logoUrl": "https://zhuiyingmao3.com/favicon.ico",
+    "tags": [
+      "在线秒播",
+      "资源丰富"
+    ],
+    "rating": 5,
+    "isHot": false,
+    "isRecommended": true,
+    "bgGradient": "from-sky-50/40 to-blue-50/40 dark:from-sky-950/20 dark:to-blue-950/20",
+    "categoryName": "综合影视"
+  },
+  {
+    "name": "FreeOK - 追剧也很卷",
+    "url": "https://www.freeok.mobi/",
+    "description": "FreeOK - 追剧也很卷",
+    "logoUrl": "https://www.freeok.mobi/mxtheme/images/newlogo.jpg",
+    "tags": [
+      "在线播放",
+      "高清"
+    ],
+    "rating": 5,
+    "isHot": false,
+    "isRecommended": true,
+    "bgGradient": "from-rose-50/40 to-pink-50/40 dark:from-rose-950/20 dark:to-pink-950/20",
+    "categoryName": "综合影视"
+  },
+  {
+    "name": "稀饭动漫",
+    "url": "https://dick.xfani.com/",
+    "description": "稀饭动漫",
+    "logoUrl": "https://img20.360buyimg.com/openfeedback/jfs/t1/291795/1/467/167590/680dc955F2481270d/d874122576b32bc2.png",
+    "tags": [
+      "动漫",
+      "高清"
+    ],
+    "rating": 5,
+    "isHot": false,
+    "isRecommended": true,
+    "bgGradient": "from-orange-50/40 to-red-50/40 dark:from-orange-950/20 dark:to-red-950/20",
+    "categoryName": "动漫动画"
+  },
+  {
+    "name": "追新番",
+    "url": "https://www.fanxinzhui.com/",
+    "description": "追新番",
+    "logoUrl": "https://favicon.cccyun.cc/www.fanxinzhui.com",
+    "tags": [
+      "日剧",
+      "海外剧"
+    ],
+    "rating": 5,
+    "isHot": false,
+    "isRecommended": true,
+    "bgGradient": "from-purple-50/40 to-pink-50/40 dark:from-purple-950/20 dark:to-pink-950/20",
+    "categoryName": "动漫动画"
+  },
+  {
+    "name": "音范丝",
+    "url": "https://www.yinfans.me/",
+    "description": "音范丝",
+    "logoUrl": "https://www.yinfans.me/favicon.ico",
+    "tags": [
+      "4K",
+      "支持下载",
+      "高清",
+      "磁力"
+    ],
+    "rating": 5,
+    "isHot": false,
+    "isRecommended": true,
+    "bgGradient": "from-green-50/40 to-emerald-50/40 dark:from-green-950/20 dark:to-emerald-950/20",
+    "categoryName": "网盘资源"
+  },
+  {
+    "name": "猫狸盘搜",
+    "url": "https://www.alipansou.com/",
+    "description": "猫狸盘搜",
+    "logoUrl": "https://www.alipansou.com/favicon.ico",
+    "tags": [
+      "免费",
+      "公众号关注"
+    ],
+    "rating": 5,
+    "isHot": false,
+    "isRecommended": true,
+    "bgGradient": "from-cyan-50/40 to-blue-50/40 dark:from-cyan-950/20 dark:to-blue-950/20",
+    "categoryName": "综合影视"
+  },
+  {
+    "name": "爱盘搜",
+    "url": "https://aipanso.com/",
+    "description": "爱盘搜",
+    "logoUrl": "https://aipanso.com/favicon.ico",
+    "tags": [
+      "免费",
+      "夸克盘",
+      "公众号关注"
+    ],
+    "rating": 5,
+    "isHot": false,
+    "isRecommended": true,
+    "bgGradient": "from-indigo-50/40 to-purple-50/40 dark:from-indigo-950/20 dark:to-purple-950/20",
+    "categoryName": "网盘资源"
+  },
+  {
+    "name": "热盘搜",
+    "url": "http://www.repanso.com/",
+    "description": "热盘搜",
+    "logoUrl": "http://www.repanso.com/favicon.ico",
+    "tags": [
+      "免费",
+      "百度盘",
+      "阿里盘",
+      "夸克盘"
+    ],
+    "rating": 5,
+    "isHot": false,
+    "isRecommended": true,
+    "bgGradient": "from-amber-50/40 to-orange-50/40 dark:from-amber-950/20 dark:to-orange-950/20",
+    "categoryName": "网盘资源"
+  },
+  {
+    "name": "直播吧",
+    "url": "https://www.zhibo8.com/",
+    "description": "直播吧",
+    "logoUrl": "https://www.zhibo8.com/favicon.ico",
+    "tags": [
+      "体育",
+      "直播"
+    ],
+    "rating": 5,
+    "isHot": false,
+    "isRecommended": true,
+    "bgGradient": "from-sky-50/40 to-blue-50/40 dark:from-sky-950/20 dark:to-blue-950/20",
+    "categoryName": "综合影视"
+  },
+  {
+    "name": "CCTV在线",
+    "url": "https://tv.cctv.com/live/cctv1/",
+    "description": "CCTV在线",
+    "logoUrl": "https://tv.cctv.com/favicon.ico",
+    "tags": [
+      "央视"
+    ],
+    "rating": 5,
+    "isHot": false,
+    "isRecommended": true,
+    "bgGradient": "from-rose-50/40 to-pink-50/40 dark:from-rose-950/20 dark:to-pink-950/20",
+    "categoryName": "综合影视"
+  },
+  {
+    "name": "找台词",
+    "url": "https://zhaotaici.cn/",
+    "description": "找台词",
+    "logoUrl": "https://zhaotaici.cn/img/favicon.ico",
+    "tags": [
+      "台词搜索"
+    ],
+    "rating": 5,
+    "isHot": false,
+    "isRecommended": true,
+    "bgGradient": "from-orange-50/40 to-red-50/40 dark:from-orange-950/20 dark:to-red-950/20",
+    "categoryName": "聚合搜索"
+  },
+  {
+    "name": "33台词",
+    "url": "https://33.agilestudio.cn/",
+    "description": "33台词",
+    "logoUrl": "https://33.agilestudio.cn/favicon.ico",
+    "tags": [
+      "台词搜索"
+    ],
+    "rating": 5,
+    "isHot": false,
+    "isRecommended": true,
+    "bgGradient": "from-purple-50/40 to-pink-50/40 dark:from-purple-950/20 dark:to-pink-950/20",
+    "categoryName": "聚合搜索"
+  },
+  {
+    "name": "烂番茄",
+    "url": "https://www.rottentomatoes.com/",
+    "description": "烂番茄",
+    "logoUrl": "https://www.rottentomatoes.com/favicon.ico",
+    "tags": [
+      "美国",
+      "影评"
+    ],
+    "rating": 5,
+    "isHot": false,
+    "isRecommended": true,
+    "bgGradient": "from-green-50/40 to-emerald-50/40 dark:from-green-950/20 dark:to-emerald-950/20",
+    "categoryName": "综合影视"
+  },
+  {
+    "name": "Gimy TV 剧迷影院",
+    "url": "https://www.jagcys.com/",
+    "description": "Gimy TV 剧迷影院",
+    "logoUrl": "https://www.jagcys.com/favicon.png",
+    "tags": [
+      "高清",
+      "速度快",
+      "资源丰富"
+    ],
+    "rating": 5,
+    "isHot": false,
+    "isRecommended": true,
+    "bgGradient": "from-cyan-50/40 to-blue-50/40 dark:from-cyan-950/20 dark:to-blue-950/20",
+    "categoryName": "电影专区"
+  },
+  {
+    "name": "日娱观察所",
+    "url": "https://ribenyule.com/",
+    "description": "日娱观察所",
+    "logoUrl": "https://ribenyule.com/template/riju03/statics/images/riju-favicon-32.png",
+    "tags": [
+      "NEW",
+      "日剧",
+      "日本",
+      "资讯",
+      "海外剧"
+    ],
+    "rating": 5,
+    "isHot": false,
+    "isRecommended": false,
+    "bgGradient": "from-indigo-50/40 to-purple-50/40 dark:from-indigo-950/20 dark:to-purple-950/20",
+    "categoryName": "电视剧"
+  },
+  {
+    "name": "视觉影视",
+    "url": "https://www.sypfjy.com/",
+    "description": "视觉影视",
+    "logoUrl": "https://www.sypfjy.com/favicon.ico",
+    "tags": [
+      "高清",
+      "资源丰富"
+    ],
+    "rating": 5,
+    "isHot": false,
+    "isRecommended": true,
+    "bgGradient": "from-amber-50/40 to-orange-50/40 dark:from-amber-950/20 dark:to-orange-950/20",
+    "categoryName": "综合影视"
+  },
+  {
+    "name": "桃子影视",
+    "url": "https://taozi008.com/",
+    "description": "桃子影视",
+    "logoUrl": "https://taozi008.com/favicon.ico",
+    "tags": [
+      "免费",
+      "无广告",
+      "速度快"
+    ],
+    "rating": 5,
+    "isHot": false,
+    "isRecommended": true,
+    "bgGradient": "from-sky-50/40 to-blue-50/40 dark:from-sky-950/20 dark:to-blue-950/20",
+    "categoryName": "综合影视"
+  },
+  {
+    "name": "盗火线",
+    "url": "https://dao-fire.com/",
+    "description": "盗火线",
+    "logoUrl": "https://dao-fire.com/favicon.ico",
+    "tags": [
+      "支持下载",
+      "会员制",
+      "纪录片"
+    ],
+    "rating": 5,
+    "isHot": false,
+    "isRecommended": true,
+    "bgGradient": "from-rose-50/40 to-pink-50/40 dark:from-rose-950/20 dark:to-pink-950/20",
+    "categoryName": "纪录片"
+  },
+  {
+    "name": "深影译站",
+    "url": "https://sysub.com/",
+    "description": "深影译站",
+    "logoUrl": "https://sysub.com/favicon.ico",
+    "tags": [
+      "字幕",
+      "海外剧",
+      "美国"
+    ],
+    "rating": 5,
+    "isHot": false,
+    "isRecommended": true,
+    "bgGradient": "from-orange-50/40 to-red-50/40 dark:from-orange-950/20 dark:to-red-950/20",
+    "categoryName": "字幕资源"
+  },
+  {
+    "name": "深影字幕组",
+    "url": "https://sybbs.vip/member.php/",
+    "description": "深影字幕组",
+    "logoUrl": "https://sybbs.vip/favicon.ico",
+    "tags": [
+      "字幕",
+      "海外剧",
+      "美国"
+    ],
+    "rating": 5,
+    "isHot": false,
+    "isRecommended": true,
+    "bgGradient": "from-purple-50/40 to-pink-50/40 dark:from-purple-950/20 dark:to-pink-950/20",
+    "categoryName": "字幕资源"
+  },
+  {
+    "name": "CHAOSPACE",
+    "url": "https://www.chaospace.xyz/",
+    "description": "CHAOSPACE",
+    "logoUrl": "https://www.chaospace.xyz/favicon.ico",
+    "tags": [
+      "付费注册",
+      "支持下载",
+      "无广告",
+      "高清"
+    ],
+    "rating": 5,
+    "isHot": false,
+    "isRecommended": true,
+    "bgGradient": "from-green-50/40 to-emerald-50/40 dark:from-green-950/20 dark:to-emerald-950/20",
+    "categoryName": "综合影视"
+  },
+  {
+    "name": "日剧跑",
+    "url": "https://www.rijupao.com/",
+    "description": "日剧跑",
+    "logoUrl": "https://www.rijupao.com/favicon.ico",
+    "tags": [
+      "支持下载",
+      "日本",
+      "海外剧",
+      "资源丰富"
+    ],
+    "rating": 5,
+    "isHot": false,
+    "isRecommended": true,
+    "bgGradient": "from-cyan-50/40 to-blue-50/40 dark:from-cyan-950/20 dark:to-blue-950/20",
+    "categoryName": "电视剧"
+  },
+  {
+    "name": "6V电影",
+    "url": "http://www.6v520.com/",
+    "description": "6V电影",
+    "logoUrl": "http://www.6v520.com/favicon.ico",
+    "tags": [
+      "支持下载",
+      "资源丰富",
+      "磁力"
+    ],
+    "rating": 5,
+    "isHot": false,
+    "isRecommended": true,
+    "bgGradient": "from-indigo-50/40 to-purple-50/40 dark:from-indigo-950/20 dark:to-purple-950/20",
+    "categoryName": "网盘资源"
+  },
+  {
+    "name": "我爱ABC",
+    "url": "https://www.oiabc.net/",
+    "description": "我爱ABC",
+    "logoUrl": "https://www.oiabc.net/favicon.ico",
+    "tags": [
+      "少儿",
+      "动画"
+    ],
+    "rating": 5,
+    "isHot": false,
+    "isRecommended": true,
+    "bgGradient": "from-amber-50/40 to-orange-50/40 dark:from-amber-950/20 dark:to-orange-950/20",
+    "categoryName": "综合影视"
+  },
+  {
+    "name": "下载001论坛",
+    "url": "https://xiazai001.org/",
+    "description": "下载001论坛",
+    "logoUrl": "https://xiazai001.org/favicon.ico",
+    "tags": [
+      "支持下载",
+      "论坛",
+      "会员"
+    ],
+    "rating": 5,
+    "isHot": false,
+    "isRecommended": true,
+    "bgGradient": "from-sky-50/40 to-blue-50/40 dark:from-sky-950/20 dark:to-blue-950/20",
+    "categoryName": "综合影视"
+  },
+  {
+    "name": "阿里小站",
+    "url": "https://pan666.net/",
+    "description": "阿里小站",
+    "logoUrl": "https://pan666.net/favicon.ico",
+    "tags": [
+      "网盘资源",
+      "阿里云盘",
+      "会员"
+    ],
+    "rating": 5,
+    "isHot": false,
+    "isRecommended": true,
+    "bgGradient": "from-rose-50/40 to-pink-50/40 dark:from-rose-950/20 dark:to-pink-950/20",
+    "categoryName": "网盘资源"
+  },
+  {
+    "name": "一刻电影",
+    "url": "https://www.yikedy.co/",
+    "description": "一刻电影",
+    "logoUrl": "https://www.yikedy.co/favicon.ico",
+    "tags": [
+      "支持下载"
+    ],
+    "rating": 5,
+    "isHot": false,
+    "isRecommended": true,
+    "bgGradient": "from-orange-50/40 to-red-50/40 dark:from-orange-950/20 dark:to-red-950/20",
+    "categoryName": "电影专区"
+  },
+  {
+    "name": "天逸搜",
+    "url": "https://www.tianyiso.com/",
+    "description": "天逸搜",
+    "logoUrl": "https://www.tianyiso.com/favicon.ico",
+    "tags": [
+      "免费",
+      "天翼盘",
+      "无广告"
+    ],
+    "rating": 5,
+    "isHot": false,
+    "isRecommended": true,
+    "bgGradient": "from-purple-50/40 to-pink-50/40 dark:from-purple-950/20 dark:to-pink-950/20",
+    "categoryName": "综合影视"
+  },
+  {
+    "name": "盘么么",
+    "url": "http://www.panmeme.com/",
+    "description": "盘么么",
+    "logoUrl": "http://www.panmeme.com/favicon.ico",
+    "tags": [
+      "免费",
+      "百度盘",
+      "阿里盘",
+      "夸克盘"
+    ],
+    "rating": 5,
+    "isHot": false,
+    "isRecommended": true,
+    "bgGradient": "from-green-50/40 to-emerald-50/40 dark:from-green-950/20 dark:to-emerald-950/20",
+    "categoryName": "网盘资源"
+  },
+  {
+    "name": "AfreecaTV",
+    "url": "https://www.sooplive.co.kr/",
+    "description": "AfreecaTV",
+    "logoUrl": "https://www.sooplive.co.kr/favicon.ico",
+    "tags": [
+      "免费",
+      "韩国"
+    ],
+    "rating": 5,
+    "isHot": false,
+    "isRecommended": true,
+    "bgGradient": "from-cyan-50/40 to-blue-50/40 dark:from-cyan-950/20 dark:to-blue-950/20",
+    "categoryName": "综合影视"
+  },
+  {
+    "name": "QuoDB",
+    "url": "https://www.quodb.com/",
+    "description": "QuoDB",
+    "logoUrl": "https://www.quodb.com/favicon.ico",
+    "tags": [
+      "英文"
+    ],
+    "rating": 5,
+    "isHot": false,
+    "isRecommended": true,
+    "bgGradient": "from-indigo-50/40 to-purple-50/40 dark:from-indigo-950/20 dark:to-purple-950/20",
+    "categoryName": "综合影视"
+  },
+  {
+    "name": "Dialogue.moe",
+    "url": "https://dialogue.moe/",
+    "description": "Dialogue.moe",
+    "logoUrl": "https://dialogue.moe/favicon.ico",
+    "tags": [
+      "动漫"
+    ],
+    "rating": 5,
+    "isHot": false,
+    "isRecommended": true,
+    "bgGradient": "from-amber-50/40 to-orange-50/40 dark:from-amber-950/20 dark:to-orange-950/20",
+    "categoryName": "动漫动画"
+  },
+  {
+    "name": "SauceNAO",
+    "url": "https://saucenao.com/",
+    "description": "SauceNAO",
+    "logoUrl": "https://saucenao.com/favicon.ico",
+    "tags": [
+      "动漫"
+    ],
+    "rating": 5,
+    "isHot": false,
+    "isRecommended": true,
+    "bgGradient": "from-sky-50/40 to-blue-50/40 dark:from-sky-950/20 dark:to-blue-950/20",
+    "categoryName": "动漫动画"
+  },
+  {
+    "name": "UP云搜",
+    "url": "https://www.upyunso.com/",
+    "description": "UP云搜",
+    "logoUrl": "https://www.upyunso.com/static/favicon.ico",
+    "tags": [
+      "免费",
+      "无广告",
+      "阿里盘"
+    ],
+    "rating": 5,
+    "isHot": false,
+    "isRecommended": true,
+    "bgGradient": "from-rose-50/40 to-pink-50/40 dark:from-rose-950/20 dark:to-pink-950/20",
+    "categoryName": "网盘资源"
+  },
+  {
+    "name": "韩娱网",
+    "url": "https://koreayule.com/",
+    "description": "韩娱网",
+    "logoUrl": "https://koreayule.com/template/hanju2/statics/uploads/favicon-20260624105637-13bd44.png",
+    "tags": [
+      "NEW",
+      "韩剧",
+      "韩国",
+      "海外剧",
+      "资源丰富"
+    ],
+    "rating": 5,
+    "isHot": false,
+    "isRecommended": false,
+    "bgGradient": "from-orange-50/40 to-red-50/40 dark:from-orange-950/20 dark:to-red-950/20",
+    "categoryName": "电视剧"
+  },
+  {
+    "name": "影猫 · MVCAT",
+    "url": "https://www.mvcat.com/movie/",
+    "description": "影猫 · MVCAT",
+    "logoUrl": "https://www.mvcat.com/favicon.ico",
+    "tags": [
+      "评分",
+      "片单"
+    ],
+    "rating": 5,
+    "isHot": false,
+    "isRecommended": true,
+    "bgGradient": "from-purple-50/40 to-pink-50/40 dark:from-purple-950/20 dark:to-pink-950/20",
+    "categoryName": "综合影视"
+  },
+  {
+    "name": "动漫新番表",
+    "url": "https://xf.hmacg.cn/",
+    "description": "动漫新番表",
+    "logoUrl": "https://xf.hmacg.cn/favicon.ico",
+    "tags": [
+      "动漫"
+    ],
+    "rating": 5,
+    "isHot": false,
+    "isRecommended": true,
+    "bgGradient": "from-green-50/40 to-emerald-50/40 dark:from-green-950/20 dark:to-emerald-950/20",
+    "categoryName": "动漫动画"
+  },
+  {
+    "name": "免費動漫网",
+    "url": "https://qkan8.com/",
+    "description": "免費動漫网",
+    "logoUrl": "https://k8dm.com/template/vfed/asset/img/favicon.png",
+    "tags": [
+      "动漫",
+      "高清"
+    ],
+    "rating": 5,
+    "isHot": false,
+    "isRecommended": true,
+    "bgGradient": "from-cyan-50/40 to-blue-50/40 dark:from-cyan-950/20 dark:to-blue-950/20",
+    "categoryName": "动漫动画"
+  },
+  {
+    "name": "酷米动漫",
+    "url": "http://www.kumi.cn/",
+    "description": "酷米动漫",
+    "logoUrl": "http://www.kumi.cn/favicon.ico",
+    "tags": [
+      "动漫",
+      "少儿"
+    ],
+    "rating": 5,
+    "isHot": false,
+    "isRecommended": true,
+    "bgGradient": "from-indigo-50/40 to-purple-50/40 dark:from-indigo-950/20 dark:to-purple-950/20",
+    "categoryName": "动漫动画"
+  },
+  {
+    "name": "番薯动漫",
+    "url": "https://www.fanshudm.com/",
+    "description": "番薯动漫",
+    "logoUrl": "https://www.fanshudm.com/apple-touch-icon.png",
+    "tags": [
+      "免费",
+      "动漫",
+      "速度快"
+    ],
+    "rating": 5,
+    "isHot": false,
+    "isRecommended": true,
+    "bgGradient": "from-amber-50/40 to-orange-50/40 dark:from-amber-950/20 dark:to-orange-950/20",
+    "categoryName": "动漫动画"
+  },
+  {
+    "name": "FreeOK影视大全",
+    "url": "https://www.jsard.com/",
+    "description": "FreeOK影视大全",
+    "logoUrl": "https://www.jsard.com/favicon.png",
+    "tags": [
+      "免费",
+      "无广告"
+    ],
+    "rating": 5,
+    "isHot": false,
+    "isRecommended": true,
+    "bgGradient": "from-sky-50/40 to-blue-50/40 dark:from-sky-950/20 dark:to-blue-950/20",
+    "categoryName": "综合影视"
+  },
+  {
+    "name": "飘零影院",
+    "url": "https://www.tzqjdy.com/",
+    "description": "飘零影院",
+    "logoUrl": "https://www.tzqjdy.com/favicon.ico",
+    "tags": [
+      "免费",
+      "无广告"
+    ],
+    "rating": 5,
+    "isHot": false,
+    "isRecommended": true,
+    "bgGradient": "from-rose-50/40 to-pink-50/40 dark:from-rose-950/20 dark:to-pink-950/20",
+    "categoryName": "电影专区"
+  },
+  {
+    "name": "极光影视",
+    "url": "https://hellociqryx6e.com/",
+    "description": "极光影视",
+    "logoUrl": "https://obs.yinruifei.com/upload/site_ico/20240624-1/76e60462ea139ea94637a442852adf71_180x180.png",
+    "tags": [
+      "高清"
+    ],
+    "rating": 5,
+    "isHot": false,
+    "isRecommended": true,
+    "bgGradient": "from-orange-50/40 to-red-50/40 dark:from-orange-950/20 dark:to-red-950/20",
+    "categoryName": "综合影视"
+  },
+  {
+    "name": "SubHD",
+    "url": "https://subhd.tv/",
+    "description": "SubHD",
+    "logoUrl": "https://subhd.tv/favicon.ico",
+    "tags": [
+      "字幕",
+      "海外剧",
+      "美国",
+      "高清"
+    ],
+    "rating": 5,
+    "isHot": false,
+    "isRecommended": true,
+    "bgGradient": "from-purple-50/40 to-pink-50/40 dark:from-purple-950/20 dark:to-pink-950/20",
+    "categoryName": "字幕资源"
+  },
+  {
+    "name": "神叨字幕组",
+    "url": "https://www.shenbibi.com/",
+    "description": "神叨字幕组",
+    "logoUrl": "https://www.shenbibi.com/favicon.ico",
+    "tags": [
+      "免费",
+      "字幕",
+      "会员制",
+      "不可注册"
+    ],
+    "rating": 5,
+    "isHot": false,
+    "isRecommended": true,
+    "bgGradient": "from-green-50/40 to-emerald-50/40 dark:from-green-950/20 dark:to-emerald-950/20",
+    "categoryName": "字幕资源"
+  },
+  {
+    "name": "云盘资源社区",
+    "url": "https://yunpan1.cc/",
+    "description": "云盘资源社区",
+    "logoUrl": "https://yunpan1.cc/favicon.ico",
+    "tags": [
+      "关注公众号",
+      "网盘资源"
+    ],
+    "rating": 5,
+    "isHot": false,
+    "isRecommended": true,
+    "bgGradient": "from-cyan-50/40 to-blue-50/40 dark:from-cyan-950/20 dark:to-blue-950/20",
+    "categoryName": "网盘资源"
+  },
+  {
+    "name": "韩饭网",
+    "url": "https://www.hanfan.cc/",
+    "description": "韩饭网",
+    "logoUrl": "https://www.hanfan.cc/favicon.ico",
+    "tags": [
+      "支持下载",
+      "海外剧",
+      "韩国"
+    ],
+    "rating": 5,
+    "isHot": false,
+    "isRecommended": true,
+    "bgGradient": "from-indigo-50/40 to-purple-50/40 dark:from-indigo-950/20 dark:to-purple-950/20",
+    "categoryName": "综合影视"
+  },
+  {
+    "name": "人人影视下载分享",
+    "url": "https://yyets.click/",
+    "description": "人人影视下载分享",
+    "logoUrl": "https://yyets.click/favicon.ico",
+    "tags": [
+      "支持下载"
+    ],
+    "rating": 5,
+    "isHot": false,
+    "isRecommended": true,
+    "bgGradient": "from-amber-50/40 to-orange-50/40 dark:from-amber-950/20 dark:to-orange-950/20",
+    "categoryName": "综合影视"
+  },
+  {
+    "name": "漫猫动漫BT下载",
+    "url": "http://www.comicat.org/",
+    "description": "漫猫动漫BT下载",
+    "logoUrl": "http://www.comicat.org/favicon.ico",
+    "tags": [
+      "动漫",
+      "支持下载",
+      "日本",
+      "海外剧",
+      "速度快"
+    ],
+    "rating": 5,
+    "isHot": false,
+    "isRecommended": true,
+    "bgGradient": "from-sky-50/40 to-blue-50/40 dark:from-sky-950/20 dark:to-blue-950/20",
+    "categoryName": "动漫动画"
+  },
+  {
+    "name": "短剧剧",
+    "url": "https://duanjujui.com/",
+    "description": "短剧剧",
+    "logoUrl": "https://duanjujui.com/upload/site_favicon/20260724-1/f29f24c77983169a33adb1b8abd0e2b4.jpg",
+    "tags": [
+      "NEW",
+      "短剧",
+      "免费"
+    ],
+    "rating": 5,
+    "isHot": false,
+    "isRecommended": false,
+    "bgGradient": "from-rose-50/40 to-pink-50/40 dark:from-rose-950/20 dark:to-pink-950/20",
+    "categoryName": "短剧短视频"
+  },
+  {
+    "name": "优聚搜",
+    "url": "https://jujuso.com/",
+    "description": "优聚搜",
+    "logoUrl": "https://jujuso.com/favicon.ico",
+    "tags": [
+      "会员制"
+    ],
+    "rating": 5,
+    "isHot": false,
+    "isRecommended": true,
+    "bgGradient": "from-orange-50/40 to-red-50/40 dark:from-orange-950/20 dark:to-red-950/20",
+    "categoryName": "综合影视"
+  },
+  {
+    "name": "奈斯搜索",
+    "url": "https://www.niceso.net/",
+    "description": "奈斯搜索",
+    "logoUrl": "https://www.niceso.net/favicon.ico",
+    "tags": [
+      "免费",
+      "无广告",
+      "阿里盘",
+      "关注公众号"
+    ],
+    "rating": 5,
+    "isHot": false,
+    "isRecommended": true,
+    "bgGradient": "from-purple-50/40 to-pink-50/40 dark:from-purple-950/20 dark:to-pink-950/20",
+    "categoryName": "网盘资源"
+  },
+  {
+    "name": "小马盘",
+    "url": "https://www.xiaomapan.com/",
+    "description": "小马盘",
+    "logoUrl": "https://www.xiaomapan.com/favicon.ico",
+    "tags": [
+      "实名制",
+      "阿里盘",
+      "公众号关注"
+    ],
+    "rating": 5,
+    "isHot": false,
+    "isRecommended": true,
+    "bgGradient": "from-green-50/40 to-emerald-50/40 dark:from-green-950/20 dark:to-emerald-950/20",
+    "categoryName": "网盘资源"
+  },
+  {
+    "name": "trace.moe",
+    "url": "https://trace.moe/",
+    "description": "trace.moe",
+    "logoUrl": "https://trace.moe/favicon.png",
+    "tags": [
+      "动漫",
+      "日本"
+    ],
+    "rating": 5,
+    "isHot": false,
+    "isRecommended": true,
+    "bgGradient": "from-cyan-50/40 to-blue-50/40 dark:from-cyan-950/20 dark:to-blue-950/20",
+    "categoryName": "动漫动画"
+  },
+  {
+    "name": "天府泰剧",
+    "url": "https://weibo.com/tfthaimovie/",
+    "description": "天府泰剧",
+    "logoUrl": "https://weibo.com/favicon.ico",
+    "tags": [
+      "微博",
+      "海外剧",
+      "泰国",
+      "封禁中"
+    ],
+    "rating": 5,
+    "isHot": false,
+    "isRecommended": true,
+    "bgGradient": "from-indigo-50/40 to-purple-50/40 dark:from-indigo-950/20 dark:to-purple-950/20",
+    "categoryName": "电视剧"
+  },
+  {
+    "name": "虾米解析",
+    "url": "https://jx.xmflv.com/?url=/",
+    "description": "虾米解析",
+    "logoUrl": "https://jx.xmflv.com/favicon.ico",
+    "tags": [
+      "免费",
+      "高清"
+    ],
+    "rating": 5,
+    "isHot": false,
+    "isRecommended": false,
+    "bgGradient": "from-amber-50/40 to-orange-50/40 dark:from-amber-950/20 dark:to-orange-950/20",
+    "categoryName": "综合影视"
+  },
+  {
+    "name": "M3U8.TV",
+    "url": "https://jx.m3u8.tv/jiexi/?url=/",
+    "description": "M3U8.TV",
+    "logoUrl": "https://jx.m3u8.tv/favicon.ico",
+    "tags": [
+      "高清",
+      "免费"
+    ],
+    "rating": 5,
+    "isHot": false,
+    "isRecommended": false,
+    "bgGradient": "from-sky-50/40 to-blue-50/40 dark:from-sky-950/20 dark:to-blue-950/20",
+    "categoryName": "综合影视"
+  },
+  {
+    "name": "PlayM3U8",
+    "url": "https://www.playm3u8.cn/jiexi.php?url=/",
+    "description": "PlayM3U8",
+    "logoUrl": "https://favicon.cccyun.cc/www.playm3u8.cn",
+    "tags": [
+      "免费",
+      "无广告"
+    ],
+    "rating": 5,
+    "isHot": false,
+    "isRecommended": false,
+    "bgGradient": "from-rose-50/40 to-pink-50/40 dark:from-rose-950/20 dark:to-pink-950/20",
+    "categoryName": "综合影视"
+  },
+  {
+    "name": "TVBox安卓电视盒子",
+    "url": "https://qianfangzy.com/40541.html/",
+    "description": "TVBox安卓电视盒子",
+    "logoUrl": "https://qianfangzy.com/favicon.ico",
+    "tags": [
+      "免费"
+    ],
+    "rating": 5,
+    "isHot": false,
+    "isRecommended": false,
+    "bgGradient": "from-orange-50/40 to-red-50/40 dark:from-orange-950/20 dark:to-red-950/20",
+    "categoryName": "综合影视"
+  },
+  {
+    "name": "ZY Player播放器",
+    "url": "https://zyplayer.fun/",
+    "description": "ZY Player播放器",
+    "logoUrl": "https://zyplayer.fun/favicon.ico",
+    "tags": [
+      "免费",
+      "高清"
+    ],
+    "rating": 5,
+    "isHot": false,
+    "isRecommended": false,
+    "bgGradient": "from-purple-50/40 to-pink-50/40 dark:from-purple-950/20 dark:to-pink-950/20",
+    "categoryName": "综合影视"
+  },
+  {
+    "name": "电视盒子的APP合集",
+    "url": "https://qianfangzy.com/?s=TV/",
+    "description": "电视盒子的APP合集",
+    "logoUrl": "https://qianfangzy.com/favicon.ico",
+    "tags": [
+      "免费",
+      "高清"
+    ],
+    "rating": 5,
+    "isHot": false,
+    "isRecommended": false,
+    "bgGradient": "from-green-50/40 to-emerald-50/40 dark:from-green-950/20 dark:to-emerald-950/20",
+    "categoryName": "综合影视"
+  },
+  {
+    "name": "7080网",
+    "url": "https://7080.wang/",
+    "description": "7080网",
+    "logoUrl": "https://7080.wang/favicon.ico",
+    "tags": [
+      "免费",
+      "高清"
+    ],
+    "rating": 5,
+    "isHot": false,
+    "isRecommended": false,
+    "bgGradient": "from-cyan-50/40 to-blue-50/40 dark:from-cyan-950/20 dark:to-blue-950/20",
+    "categoryName": "综合影视"
+  },
+  {
+    "name": "茶杯狐",
+    "url": "https://cupfox.app/",
+    "description": "茶杯狐",
+    "logoUrl": "https://cupfox.app/favicon.ico",
+    "tags": [
+      "免费",
+      "高清"
+    ],
+    "rating": 5,
+    "isHot": false,
+    "isRecommended": false,
+    "bgGradient": "from-indigo-50/40 to-purple-50/40 dark:from-indigo-950/20 dark:to-purple-950/20",
+    "categoryName": "聚合搜索"
+  },
+  {
+    "name": "豌豆免费影视",
+    "url": "https://www.wandou.la/",
+    "description": "豌豆免费影视",
+    "logoUrl": "https://www.wandou.la/favicon.ico",
+    "tags": [
+      "免费"
+    ],
+    "rating": 5,
+    "isHot": false,
+    "isRecommended": false,
+    "bgGradient": "from-amber-50/40 to-orange-50/40 dark:from-amber-950/20 dark:to-orange-950/20",
+    "categoryName": "综合影视"
+  },
+  {
+    "name": "青麦",
+    "url": "https://www.qmtv.pro/",
+    "description": "青麦",
+    "logoUrl": "https://www.qmtv.pro/favicon.ico",
+    "tags": [
+      "资源丰富"
+    ],
+    "rating": 5,
+    "isHot": false,
+    "isRecommended": false,
+    "bgGradient": "from-sky-50/40 to-blue-50/40 dark:from-sky-950/20 dark:to-blue-950/20",
+    "categoryName": "综合影视"
+  },
+  {
+    "name": "搜片.com",
+    "url": "https://soupian.one/",
+    "description": "搜片.com",
+    "logoUrl": "https://soupian.one/favicon.ico",
+    "tags": [
+      "免费",
+      "高清"
+    ],
+    "rating": 5,
+    "isHot": false,
+    "isRecommended": false,
+    "bgGradient": "from-rose-50/40 to-pink-50/40 dark:from-rose-950/20 dark:to-pink-950/20",
+    "categoryName": "聚合搜索"
+  },
+  {
+    "name": "哎呦不错网",
+    "url": "https://aiyoubucuo.com/",
+    "description": "哎呦不错网",
+    "logoUrl": "https://aiyoubucuo.com/favicon.ico",
+    "tags": [
+      "免费",
+      "高清"
+    ],
+    "rating": 5,
+    "isHot": false,
+    "isRecommended": false,
+    "bgGradient": "from-orange-50/40 to-red-50/40 dark:from-orange-950/20 dark:to-red-950/20",
+    "categoryName": "综合影视"
+  },
+  {
+    "name": "看片狂人",
+    "url": "https://www.kpkuang.fun/",
+    "description": "看片狂人",
+    "logoUrl": "https://www.kpkuang.fun/favicon.ico",
+    "tags": [
+      "免费",
+      "高清"
+    ],
+    "rating": 5,
+    "isHot": false,
+    "isRecommended": false,
+    "bgGradient": "from-purple-50/40 to-pink-50/40 dark:from-purple-950/20 dark:to-pink-950/20",
+    "categoryName": "综合影视"
+  },
+  {
+    "name": "MOFLIX影院",
+    "url": "http://4.567.li/",
+    "description": "MOFLIX影院",
+    "logoUrl": "http://4.567.li/favicon.ico",
+    "tags": [
+      "速度快"
+    ],
+    "rating": 5,
+    "isHot": false,
+    "isRecommended": false,
+    "bgGradient": "from-green-50/40 to-emerald-50/40 dark:from-green-950/20 dark:to-emerald-950/20",
+    "categoryName": "电影专区"
+  },
+  {
+    "name": "IPTV直播源",
+    "url": "https://github.com/wang987742/fanmingming/",
+    "description": "IPTV直播源",
+    "logoUrl": "https://github.com/favicon.ico",
+    "tags": [
+      "免费",
+      "高清"
+    ],
+    "rating": 5,
+    "isHot": false,
+    "isRecommended": false,
+    "bgGradient": "from-cyan-50/40 to-blue-50/40 dark:from-cyan-950/20 dark:to-blue-950/20",
+    "categoryName": "综合影视"
+  },
+  {
+    "name": "NT动漫",
+    "url": "https://www.ntdm9.com/",
+    "description": "NT动漫",
+    "logoUrl": "https://www.ntdm9.com/favicon.ico",
+    "tags": [
+      "动漫"
+    ],
+    "rating": 5,
+    "isHot": false,
+    "isRecommended": false,
+    "bgGradient": "from-indigo-50/40 to-purple-50/40 dark:from-indigo-950/20 dark:to-purple-950/20",
+    "categoryName": "动漫动画"
+  },
+  {
+    "name": "百思派电影",
+    "url": "https://www.bestpipe.cn/",
+    "description": "百思派电影",
+    "logoUrl": "https://www.bestpipe.cn/favicon.ico",
+    "tags": [
+      "免费",
+      "海外资源"
+    ],
+    "rating": 5,
+    "isHot": false,
+    "isRecommended": false,
+    "bgGradient": "from-amber-50/40 to-orange-50/40 dark:from-amber-950/20 dark:to-orange-950/20",
+    "categoryName": "电影专区"
+  },
+  {
+    "name": "555影视",
+    "url": "https://www.55yy8.com/",
+    "description": "555影视",
+    "logoUrl": "https://www.55yy8.com/favicon.ico",
+    "tags": [
+      "免费",
+      "高清"
+    ],
+    "rating": 5,
+    "isHot": false,
+    "isRecommended": false,
+    "bgGradient": "from-sky-50/40 to-blue-50/40 dark:from-sky-950/20 dark:to-blue-950/20",
+    "categoryName": "综合影视"
+  },
+  {
+    "name": "樱花视频",
+    "url": "https://www.dcjyb.com/",
+    "description": "樱花视频",
+    "logoUrl": "https://www.dcjyb.com/favicon.ico",
+    "tags": [
+      "速度快"
+    ],
+    "rating": 5,
+    "isHot": false,
+    "isRecommended": false,
+    "bgGradient": "from-rose-50/40 to-pink-50/40 dark:from-rose-950/20 dark:to-pink-950/20",
+    "categoryName": "综合影视"
+  },
+  {
+    "name": "豆花影院",
+    "url": "https://www.widiz.com/",
+    "description": "豆花影院",
+    "logoUrl": "https://www.widiz.com/favicon.ico",
+    "tags": [
+      "免费",
+      "无广告",
+      "速度快"
+    ],
+    "rating": 5,
+    "isHot": false,
+    "isRecommended": false,
+    "bgGradient": "from-orange-50/40 to-red-50/40 dark:from-orange-950/20 dark:to-red-950/20",
+    "categoryName": "电影专区"
+  },
+  {
+    "name": "iKanBot",
+    "url": "https://v.aikanbot.com/",
+    "description": "iKanBot",
+    "logoUrl": "https://v.aikanbot.com/favicon.ico",
+    "tags": [
+      "免费",
+      "高清"
+    ],
+    "rating": 5,
+    "isHot": false,
+    "isRecommended": false,
+    "bgGradient": "from-purple-50/40 to-pink-50/40 dark:from-purple-950/20 dark:to-pink-950/20",
+    "categoryName": "综合影视"
+  },
+  {
+    "name": "蛋蛋兔",
+    "url": "https://www.dandantu.cc/",
+    "description": "蛋蛋兔",
+    "logoUrl": "https://favicon.cccyun.cc/www.dandantu.cc",
+    "tags": [
+      "免费",
+      "无广告"
+    ],
+    "rating": 5,
+    "isHot": false,
+    "isRecommended": false,
+    "bgGradient": "from-green-50/40 to-emerald-50/40 dark:from-green-950/20 dark:to-emerald-950/20",
+    "categoryName": "综合影视"
+  },
+  {
+    "name": "星颜社",
+    "url": "https://kvariety.news/",
+    "description": "星颜社",
+    "logoUrl": "https://thousand-realms-prod.oss-cn-guangzhou.aliyuncs.com/media/DM_20251103143814_001-removebg-preview-300x300.png?x-oss-process=image/resize,m_pad,w_32,h_32,color_00000000/format,png",
+    "tags": [
+      "NEW",
+      "韩国",
+      "韩综",
+      "K-POP",
+      "资讯"
+    ],
+    "rating": 5,
+    "isHot": false,
+    "isRecommended": false,
+    "bgGradient": "from-cyan-50/40 to-blue-50/40 dark:from-cyan-950/20 dark:to-blue-950/20",
+    "categoryName": "综合影视"
+  },
+  {
+    "name": "泰小圈",
+    "url": "https://txquu.com/",
+    "description": "泰小圈",
+    "logoUrl": "https://favicon.cccyun.cc/txquu.com",
+    "tags": [
+      "免费",
+      "高清"
+    ],
+    "rating": 5,
+    "isHot": false,
+    "isRecommended": false,
+    "bgGradient": "from-indigo-50/40 to-purple-50/40 dark:from-indigo-950/20 dark:to-purple-950/20",
+    "categoryName": "综合影视"
+  },
+  {
+    "name": "茅台资源站",
+    "url": "https://mtzy.me/",
+    "description": "茅台资源站",
+    "logoUrl": "https://mtzy.me/favicon.ico",
+    "tags": [
+      "高清",
+      "资源丰富"
+    ],
+    "rating": 5,
+    "isHot": false,
+    "isRecommended": false,
+    "bgGradient": "from-amber-50/40 to-orange-50/40 dark:from-amber-950/20 dark:to-orange-950/20",
+    "categoryName": "综合影视"
+  },
+  {
+    "name": "最强最全国内外AI神器！",
+    "url": "https://qianfangzy.com/126675.html/",
+    "description": "最强最全国内外AI神器推荐！",
+    "logoUrl": "https://qianfangzy.com/favicon.ico",
+    "tags": [
+      "免费",
+      "高清"
+    ],
+    "rating": 5,
+    "isHot": false,
+    "isRecommended": true,
+    "bgGradient": "from-sky-50/40 to-blue-50/40 dark:from-sky-950/20 dark:to-blue-950/20",
+    "categoryName": "综合影视"
+  },
+  {
+    "name": "影剧资源",
+    "url": "https://yjzy.tv/",
+    "description": "影剧资源",
+    "logoUrl": "https://yjzy.tv/favicon.ico",
+    "tags": [
+      "资源丰富"
+    ],
+    "rating": 5,
+    "isHot": false,
+    "isRecommended": false,
+    "bgGradient": "from-rose-50/40 to-pink-50/40 dark:from-rose-950/20 dark:to-pink-950/20",
+    "categoryName": "综合影视"
+  },
+  {
+    "name": "Anime1.in 動畫線上看",
+    "url": "https://anime1.in/",
+    "description": "Anime1.in 動畫線上看",
+    "logoUrl": "https://anime1.in/apple-touch-icon.png",
+    "tags": [
+      "动漫"
+    ],
+    "rating": 5,
+    "isHot": false,
+    "isRecommended": false,
+    "bgGradient": "from-orange-50/40 to-red-50/40 dark:from-orange-950/20 dark:to-red-950/20",
+    "categoryName": "动漫动画"
+  },
+  {
+    "name": "Omofun动漫",
+    "url": "https://cn.211dm.com/",
+    "description": "Omofun动漫",
+    "logoUrl": "https://cn.211dm.com/template/the4/statics/img/favicon.ico",
+    "tags": [
+      "动漫",
+      "支持下载",
+      "资源丰富"
+    ],
+    "rating": 5,
+    "isHot": false,
+    "isRecommended": false,
+    "bgGradient": "from-purple-50/40 to-pink-50/40 dark:from-purple-950/20 dark:to-pink-950/20",
+    "categoryName": "动漫动画"
+  },
+  {
+    "name": "火车太堵",
+    "url": "https://www.tdgo.shop/",
+    "description": "火车太堵",
+    "logoUrl": "https://m.360buyimg.com/i/jfs/t1/312869/15/22473/40397/689031f2Fd3716602/5b90d45e3392cebd.png",
+    "tags": [
+      "高清"
+    ],
+    "rating": 5,
+    "isHot": false,
+    "isRecommended": false,
+    "bgGradient": "from-green-50/40 to-emerald-50/40 dark:from-green-950/20 dark:to-emerald-950/20",
+    "categoryName": "综合影视"
+  },
+  {
+    "name": "皮皮妖",
+    "url": "https://www.pipiyao.cc/",
+    "description": "皮皮妖",
+    "logoUrl": "https://www.pipiyao.cc/mxtheme/images/favicon.png",
+    "tags": [
+      "只支持手机观看"
+    ],
+    "rating": 5,
+    "isHot": false,
+    "isRecommended": false,
+    "bgGradient": "from-cyan-50/40 to-blue-50/40 dark:from-cyan-950/20 dark:to-blue-950/20",
+    "categoryName": "综合影视"
+  },
+  {
+    "name": "蜜柑计划",
+    "url": "https://mikan.tangbai.cc/",
+    "description": "蜜柑计划",
+    "logoUrl": "https://mikan.tangbai.cc/images/favicon.ico?v=2",
+    "tags": [
+      "动漫",
+      "支持下载"
+    ],
+    "rating": 5,
+    "isHot": false,
+    "isRecommended": false,
+    "bgGradient": "from-indigo-50/40 to-purple-50/40 dark:from-indigo-950/20 dark:to-purple-950/20",
+    "categoryName": "动漫动画"
+  },
+  {
+    "name": "类似电影",
+    "url": "https://leisidianying.com/",
+    "description": "类似电影",
+    "logoUrl": "https://leisidianying.com/img_zh/favicon/favicon-96x96.png",
+    "tags": [
+      "电影推荐"
+    ],
+    "rating": 5,
+    "isHot": false,
+    "isRecommended": true,
+    "bgGradient": "from-amber-50/40 to-orange-50/40 dark:from-amber-950/20 dark:to-orange-950/20",
+    "categoryName": "电影专区"
+  },
+  {
+    "name": "路漫漫在线动漫",
+    "url": "https://www.lmm96.com/",
+    "description": "路漫漫在线动漫",
+    "logoUrl": "https://www.lmm58.com/template/jable/statics/icon/favicon.ico",
+    "tags": [
+      "动漫"
+    ],
+    "rating": 5,
+    "isHot": false,
+    "isRecommended": false,
+    "bgGradient": "from-sky-50/40 to-blue-50/40 dark:from-sky-950/20 dark:to-blue-950/20",
+    "categoryName": "动漫动画"
+  },
+  {
+    "name": "4k影视-高清在线 - 4k影视",
+    "url": "https://www.4kvm.tv/",
+    "description": "4k影视-高清在线 - 4k影视",
+    "logoUrl": "https://www.4kvm.tv/wp-content/uploads/2020/07/385d1786e61233.png",
+    "tags": [
+      "4K",
+      "高清"
+    ],
+    "rating": 5,
+    "isHot": false,
+    "isRecommended": false,
+    "bgGradient": "from-rose-50/40 to-pink-50/40 dark:from-rose-950/20 dark:to-pink-950/20",
+    "categoryName": "综合影视"
+  },
+  {
+    "name": "SeaTV 24",
+    "url": "https://seatv-24.xyz/",
+    "description": "SeaTV 24",
+    "logoUrl": "https://i0.wp.com/seatv-24.xyz/wp-content/uploads/2023/12/cropped-Favicon-32x32.png",
+    "tags": [
+      "4K",
+      "动漫",
+      "高清"
+    ],
+    "rating": 5,
+    "isHot": false,
+    "isRecommended": false,
+    "bgGradient": "from-orange-50/40 to-red-50/40 dark:from-orange-950/20 dark:to-red-950/20",
+    "categoryName": "动漫动画"
+  },
+  {
+    "name": "次元城动画",
+    "url": "https://www.cycani.org/",
+    "description": "次元城动画",
+    "logoUrl": "https://www.cycani.org/upload/site/20240319-1/25e700991446a527804c82a744731b60.png",
+    "tags": [
+      "动漫"
+    ],
+    "rating": 5,
+    "isHot": false,
+    "isRecommended": false,
+    "bgGradient": "from-purple-50/40 to-pink-50/40 dark:from-purple-950/20 dark:to-pink-950/20",
+    "categoryName": "动漫动画"
+  },
+  {
+    "name": "E站-E站弹幕网",
+    "url": "https://www.ezdmw.site/",
+    "description": "E站-E站弹幕网",
+    "logoUrl": "https://favicon.cccyun.cc/www.ezdmw.site",
+    "tags": [
+      "动漫",
+      "弹幕",
+      "支持下载"
+    ],
+    "rating": 5,
+    "isHot": false,
+    "isRecommended": false,
+    "bgGradient": "from-green-50/40 to-emerald-50/40 dark:from-green-950/20 dark:to-emerald-950/20",
+    "categoryName": "动漫动画"
+  },
+  {
+    "name": "🍉西瓜卡通",
+    "url": "https://cn.xgcartoon.com/",
+    "description": "🍉西瓜卡通",
+    "logoUrl": "https://cn.xgcartoon.com/xgct/icon/apple-touch-icon.png",
+    "tags": [
+      "动漫"
+    ],
+    "rating": 5,
+    "isHot": false,
+    "isRecommended": false,
+    "bgGradient": "from-cyan-50/40 to-blue-50/40 dark:from-cyan-950/20 dark:to-blue-950/20",
+    "categoryName": "动漫动画"
+  },
+  {
+    "name": "二矿动漫",
+    "url": "https://www.2rk.cc/",
+    "description": "二矿动漫",
+    "logoUrl": "https://www.2rk.cc/favicon.ico",
+    "tags": [
+      "4K",
+      "动漫",
+      "无广告",
+      "高清"
+    ],
+    "rating": 5,
+    "isHot": false,
+    "isRecommended": false,
+    "bgGradient": "from-indigo-50/40 to-purple-50/40 dark:from-indigo-950/20 dark:to-purple-950/20",
+    "categoryName": "动漫动画"
+  }
+]

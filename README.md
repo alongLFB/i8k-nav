@@ -267,6 +267,28 @@ docker compose up -d --build
 
 ---
 
+## 🕷️ 批量采集与自动入库工具 (Scraper CLI)
+
+项目内置了通用的导航站点采集与自动入库脚本 [`scripts/scrape.js`](file:///c:/Users/along4090PC/.gemini/antigravity/scratch/i8k-nav/scripts/scrape.js)，能够智能识别目标网页的卡片标题、跳转 URL、Favicon 图标、标签、评分及分类，并生成带防重保护的 SQL 或直接一键入库。
+
+### 常用命令示例：
+
+```bash
+# 1. 采集任意导航网站并生成 JSON 与 SQL 导入文件（安全预览）
+npm run scrape https://target-nav-website.com
+
+# 2. 采集目标网站并直接自动导入到 Cloudflare D1 远端数据库
+npm run scrape https://target-nav-website.com -- --import
+
+# 3. 指定全部站点归属于特定分类（例如 "动漫动画" 或 "聚合搜索"）
+npm run scrape https://target-nav-website.com -- --category="动漫动画" --import
+
+# 4. 从本地已保存的 HTML 离线文件采集
+node scripts/scrape.js ./saved_page.html --import
+```
+
+---
+
 ## 📄 免责声明与许可
 
 - 本项目收录与展示的链接均来自于互联网公开内容，平台仅提供导航与索引服务，不存储或分发任何受版权保护的影视音视频内容。
