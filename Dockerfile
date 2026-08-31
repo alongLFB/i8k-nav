@@ -2,7 +2,6 @@
 
 # 1. Base Node Image
 FROM node:22-alpine AS base
-RUN apk add --no-cache libc6-compat
 WORKDIR /app
 
 # 2. Dependencies Stage
@@ -36,7 +35,7 @@ RUN addgroup --system --gid 1001 nodejs && \
     adduser --system --uid 1001 nextjs
 
 # Copy static assets and standalone server output
-COPY --from=builder /app/public ./public
+COPY --from=builder --chown=nextjs:nodejs /app/public ./public
 RUN mkdir .next && chown nextjs:nodejs .next
 
 COPY --from=builder --chown=nextjs:nodejs /app/.next/standalone ./

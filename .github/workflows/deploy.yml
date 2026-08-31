@@ -39,6 +39,7 @@ jobs:
           username: ${{ secrets.SERVER_USER }} # 服务器用户名 (如 root)
           key: ${{ secrets.SERVER_SSH_KEY }}   # 服务器 SSH 私钥
           port: ${{ secrets.SERVER_PORT || 22 }} # SSH 端口 (默认 22)
+          command_timeout: 30m
           envs: ENV_B64,HAS_ENV
           script: |
             set -euo pipefail
@@ -47,6 +48,7 @@ jobs:
             
             # 优化 Git 传输协议与超时限制，强制使用 HTTP/1.1 避免多路复用假死
             git config --global http.version HTTP/1.1
+            git config --global http.connectTimeout 15
             git config --global http.lowSpeedLimit 1000
             git config --global http.lowSpeedTime 10
             git config --global http.postBuffer 524288000
