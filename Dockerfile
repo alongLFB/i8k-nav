@@ -1,5 +1,3 @@
-# syntax=docker/dockerfile:1
-
 # 1. Base Node Image
 FROM node:22-alpine AS base
 WORKDIR /app
