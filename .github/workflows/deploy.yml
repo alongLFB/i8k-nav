@@ -28,23 +28,33 @@ jobs:
           envs: ENV_FILE
           script: |
             set -euo pipefail
+            # 1. 锁定 GitHub 官方欧美骨干 IP（防止甲骨文 DNS 解析到不可达的亚太节点）
+            if ! grep -q "140.82.112.3 github.com" /etc/hosts 2>/dev/null; then
+              sudo sed -i '/github.com/d' /etc/hosts 2>/dev/null || true
+              echo "140.82.112.3 github.com" | sudo tee -a /etc/hosts >/dev/null
+            fi
+
             mkdir -p ~/github
             cd ~/github
 
-            # 1. 获取或更新最新代码
+            # 2. 获取或更新最新代码（带 30 秒超时与自动重试）
             if [ ! -d "i8k-nav" ]; then
-              git clone https://github.com/alongLFB/i8k-nav.git
+              for i in {1..3}; do
+                timeout 30s git clone https://github.com/alongLFB/i8k-nav.git && break || { echo "Clone retry ($i/3)..."; sleep 2; }
+              done
             fi
             cd i8k-nav
-            git fetch origin main
+            for i in {1..3}; do
+              timeout 30s git fetch origin main && break || { echo "Fetch retry ($i/3)..."; sleep 2; }
+            done
             git reset --hard origin/main
 
-            # 2. 同步环境变量（若 GitHub Secrets 已配置 ENV_FILE）
+            # 3. 同步环境变量（若 GitHub Secrets 已配置 ENV_FILE）
             if [ -n "${ENV_FILE:-}" ]; then
               printf "%s\n" "$ENV_FILE" > .env
             fi
 
-            # 3. 自动化容器构建与热重载
+            # 4. 自动化容器构建与热重载
             echo "==> Deploying with Docker Compose..."
             docker compose down 2>/dev/null || true
             docker compose up -d --build
