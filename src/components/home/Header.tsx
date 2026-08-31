@@ -52,14 +52,14 @@ export default function Header({ onSearch, settings }: HeaderProps) {
         <div className="flex items-center justify-between pb-2 mb-2 border-b border-gray-100 dark:border-gray-800/60 text-xs">
           <div className="flex items-center gap-3">
             <span className="inline-block w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span>
-            <span className="text-gray-500 dark:text-gray-400">i8k.tv 聚合导航</span>
+            <span className="text-gray-500 dark:text-gray-400 font-medium">{tNav('tagline')}</span>
           </div>
           <div className="flex items-center gap-2">
             <Link
               href={`/${locale}/admin`}
-              className="text-xs text-gray-500 hover:text-orange-500 dark:text-gray-400 dark:hover:text-orange-400 px-2 py-1 rounded transition-colors"
+              className="text-xs text-gray-500 hover:text-orange-500 dark:text-gray-400 dark:hover:text-orange-400 px-2 py-1 rounded transition-colors flex items-center gap-1"
             >
-              ⚙️ {tNav('admin')}
+              <span>⚙️</span> {tNav('admin')}
             </Link>
             <LocaleToggle />
             <ThemeToggle />
@@ -70,14 +70,14 @@ export default function Header({ onSearch, settings }: HeaderProps) {
         <div className="md:hidden flex flex-col items-center gap-3">
           <div className="text-center">
             <h1 className="text-2xl font-bold bg-linear-to-r from-orange-500 via-orange-600 to-red-600 bg-clip-text text-transparent flex items-center justify-center">
-              <Link href={`/${locale}`} className="flex items-center">
-                <span className="text-2xl mr-2">🎬</span>
-                {siteTitle}
+              <Link href={`/${locale}`} className="flex items-center gap-2">
+                <img src="/favicon.svg" alt="i8K" className="w-7 h-7 rounded-lg shadow-xs" />
+                <span>{siteTitle}</span>
               </Link>
             </h1>
           </div>
           <nav className="transition-opacity duration-300 opacity-100">
-            <ul className="flex items-center gap-3">
+            <ul className="flex items-center gap-4">
               <li>
                 <Link href={`/${locale}`} className="text-xs font-medium text-gray-700 hover:text-orange-600 dark:text-gray-300 dark:hover:text-orange-500 transition-colors whitespace-nowrap">
                   {tNav('home')}
@@ -95,15 +95,41 @@ export default function Header({ onSearch, settings }: HeaderProps) {
               </li>
             </ul>
           </nav>
+
+          {/* Mobile search bar */}
+          <div className="w-full mt-1">
+            <form onSubmit={handleSubmit} className="w-full">
+              <div className="relative flex items-center rounded-full border border-gray-300 bg-white shadow-xs transition-all focus-within:border-orange-500 focus-within:ring-2 focus-within:ring-orange-200 dark:border-gray-700 dark:bg-gray-800">
+                <input
+                  type="text"
+                  value={query}
+                  onChange={(e) => {
+                    setQuery(e.target.value);
+                    if (engine === 'site') {
+                      onSearch(e.target.value);
+                    }
+                  }}
+                  placeholder={tHome('search_placeholder')}
+                  className="flex-1 bg-transparent px-4 py-2 text-gray-900 outline-none dark:text-white placeholder-gray-400 text-xs"
+                />
+                <button
+                  type="submit"
+                  className="mr-1 px-4 py-1.5 rounded-full bg-linear-to-r from-orange-500 to-red-600 text-white text-xs font-semibold hover:opacity-90 transition-opacity"
+                >
+                  {tHome('search_btn')}
+                </button>
+              </div>
+            </form>
+          </div>
         </div>
 
         {/* Desktop layout */}
         <div className="hidden md:flex items-center transition-all duration-300 flex-col gap-4">
           <div className="transition-all duration-300 text-center">
             <h1 className={`font-bold bg-linear-to-r from-orange-500 via-orange-600 to-red-600 bg-clip-text text-transparent flex items-center justify-center transition-all duration-300 ${scrolled ? 'text-2xl' : 'text-4xl'}`}>
-              <Link href={`/${locale}`} className="flex items-center">
-                <span className={`${scrolled ? 'text-2xl' : 'text-3xl'} mr-2`}>🎬</span>
-                {siteTitle}
+              <Link href={`/${locale}`} className="flex items-center gap-2.5">
+                <img src="/favicon.svg" alt="i8K" className={`${scrolled ? 'w-7 h-7' : 'w-10 h-10'} rounded-xl shadow-sm transition-all`} />
+                <span>{siteTitle}</span>
               </Link>
             </h1>
             {!scrolled && (
@@ -138,7 +164,7 @@ export default function Header({ onSearch, settings }: HeaderProps) {
             <form onSubmit={handleSubmit} className="w-full max-w-3xl">
               <div className="relative flex items-center rounded-full border border-gray-300 bg-white shadow-sm transition-all focus-within:border-orange-500 focus-within:ring-2 focus-within:ring-orange-200 dark:border-gray-700 dark:bg-gray-800 dark:focus-within:border-orange-400 dark:focus-within:ring-orange-800/40">
                 <div className="relative flex items-center border-r border-gray-200 dark:border-gray-700 pl-4 pr-2">
-                  <label htmlFor="search-engine" className="sr-only">搜索引擎</label>
+                  <label htmlFor="search-engine" className="sr-only">{tHome('search_engine_label')}</label>
                   <div className="flex items-center text-gray-500 dark:text-gray-400">
                     <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
@@ -149,7 +175,7 @@ export default function Header({ onSearch, settings }: HeaderProps) {
                     value={engine}
                     onChange={(e) => setEngine(e.target.value)}
                     className="appearance-none bg-white dark:bg-gray-800 px-2 py-3 text-sm font-medium text-gray-700 outline-none cursor-pointer dark:text-gray-300 hover:text-orange-600 dark:hover:text-orange-400"
-                    title="选择搜索类型"
+                    title={tHome('select_search_engine')}
                   >
                     <option value="site" className="bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-100">{tHome('search_engine_site')}</option>
                     <option value="douban" className="bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-100">{tHome('search_engine_douban')}</option>
@@ -187,7 +213,7 @@ export default function Header({ onSearch, settings }: HeaderProps) {
                   type="submit"
                   className="mr-1.5 px-5 py-2 rounded-full bg-linear-to-r from-orange-500 to-red-600 text-white text-xs font-semibold hover:opacity-90 transition-opacity"
                 >
-                  搜索
+                  {tHome('search_btn')}
                 </button>
               </div>
             </form>

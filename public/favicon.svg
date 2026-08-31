@@ -1,10 +1,27 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
   <defs>
-    <linearGradient id="fav_bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#3b82f6" />
-      <stop offset="100%" stop-color="#8b5cf6" />
+    <linearGradient id="i8k_bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f97316" />
+      <stop offset="50%" stop-color="#ea580c" />
+      <stop offset="100%" stop-color="#dc2626" />
     </linearGradient>
+    <linearGradient id="glow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.4" />
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2" flood-opacity="0.25"/>
+    </filter>
   </defs>
-  <rect width="32" height="32" rx="7" fill="url(#fav_bg)" />
-  <path d="M11 9 L24 16 L11 23 Z" fill="#ffffff" />
+  <rect width="64" height="64" rx="16" fill="url(#i8k_bg)" />
+  <rect x="2" y="2" width="60" height="30" rx="14" fill="url(#glow)" />
+  <!-- Stylized Film Play Icon -->
+  <g filter="url(#shadow)">
+    <path d="M22 18 C20.3 18 19 19.3 19 21 L19 43 C19 44.7 20.3 46 22 46 L42 46 C43.7 46 45 44.7 45 43 L45 21 C45 19.3 43.7 18 42 18 Z" fill="#ffffff" fill-opacity="0.18"/>
+    <!-- Play Triangle -->
+    <path d="M27 24 L41 32 L27 40 Z" fill="#ffffff"/>
+    <!-- Small 8K badge circle -->
+    <circle cx="43" cy="21" r="5" fill="#facc15" />
+    <text x="43" y="23" font-size="5" font-family="system-ui, -apple-system, sans-serif" font-weight="900" fill="#78350f" text-anchor="middle">8K</text>
+  </g>
 </svg>

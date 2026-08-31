@@ -25,18 +25,198 @@ export const DEFAULT_CATEGORIES = [
 ];
 
 export const DEFAULT_SITES = [
-  { name: "饭搭子影视", url: "https://fdzys666.xyz/", description: "最新热门电影电视剧动漫综艺体育免费观看", logoUrl: "https://fdzys.net/template/mizhiady/statics/images/logo_blue.png", tags: '["最新","推荐","4K","资源丰富","高清"]', rating: 5, isHot: true, isRecommended: true, bgGradient: "from-rose-50/40 to-pink-50/40 dark:from-rose-950/20 dark:to-pink-950/20", sortOrder: 0, categoryIndex: 0 },
-  { name: "低端影视", url: "https://ddys.io/", description: "极简主义的高清影视站。利用 AI 智能筛选并重写片源简介，无广告干扰，专注提供高码率观影体验。", logoUrl: "https://ddys.io/favicon.ico", tags: '["免费","资源丰富"]', rating: 5, isHot: false, isRecommended: false, bgGradient: "from-orange-50/40 to-red-50/40 dark:from-orange-950/20 dark:to-red-950/20", sortOrder: 1, categoryIndex: 0 },
-  { name: "SeedHub", url: "https://www.seedhub.cc/", description: "影视&动漫分享平台", logoUrl: "https://www.seedhub.cc/favicon.ico", tags: '["动漫","综合","支持下载"]', rating: 5, isHot: true, isRecommended: false, bgGradient: "from-purple-50/40 to-pink-50/40 dark:from-purple-950/20 dark:to-pink-950/20", sortOrder: 2, categoryIndex: 0 },
-  { name: "播剧网", url: "https://www.ysxq.cc/", description: "2025最新电影在线观看，高清电视剧免费播放", logoUrl: "https://www.ysxq.cc/favicon.ico", tags: '["免费","无广告","资源丰富"]', rating: 5, isHot: true, isRecommended: false, bgGradient: "from-purple-50/40 to-pink-50/40 dark:from-purple-950/20 dark:to-pink-950/20", sortOrder: 3, categoryIndex: 0 },
-  { name: "爱壹帆", url: "https://www.iyf.tv/", description: "海量高清视频免费在线观看", logoUrl: "https://www.iyf.tv/favicon.ico", tags: '["免费","资源丰富"]', rating: 5, isHot: false, isRecommended: false, bgGradient: "from-green-50/40 to-emerald-50/40 dark:from-green-950/20 dark:to-emerald-950/20", sortOrder: 4, categoryIndex: 0 },
-  { name: "飞快TV", url: "https://feikuai.tv/", description: "免费高清影视在线播放网盘下载", logoUrl: "https://www.feikuai.tv/favicon.ico", tags: '["免费","资源丰富"]', rating: 5, isHot: false, isRecommended: false, bgGradient: "from-orange-50/40 to-red-50/40 dark:from-orange-950/20 dark:to-red-950/20", sortOrder: 5, categoryIndex: 0 },
-  { name: "电影先生", url: "https://www.dyxs.cc/", description: "高清电影在线观看", logoUrl: "https://www.dyxs.cc/favicon.ico", tags: '["免费","高清"]', rating: 4, isHot: false, isRecommended: false, bgGradient: "from-cyan-50/40 to-blue-50/40 dark:from-cyan-950/20 dark:to-blue-950/20", sortOrder: 6, categoryIndex: 0 },
-  { name: "樱花动漫", url: "https://www.yhdmp.net/", description: "专注动漫的门户网站，提供最新最全的动漫资源", logoUrl: "https://www.yhdmp.net/favicon.ico", tags: '["动漫","免费","更新快"]', rating: 5, isHot: true, isRecommended: true, bgGradient: "from-pink-50/40 to-rose-50/40 dark:from-pink-950/20 dark:to-rose-950/20", sortOrder: 0, categoryIndex: 1 },
-  { name: "AGE动漫", url: "https://www.agemys.org/", description: "AGE动漫专注于资源收集整理 海量的有效的高质量的动漫资源", logoUrl: "https://www.agemys.org/favicon.ico", tags: '["动漫","高清","资源丰富"]', rating: 4, isHot: false, isRecommended: false, bgGradient: "from-indigo-50/40 to-purple-50/40 dark:from-indigo-950/20 dark:to-purple-950/20", sortOrder: 1, categoryIndex: 1 },
-  { name: "嘀哩嘀哩", url: "https://dilidili.ink/", description: "二次元动漫网站,提供最新最快的动漫新番资源", logoUrl: "https://dilidili.ink/favicon.ico", tags: '["动漫","新番","免费"]', rating: 4, isHot: false, isRecommended: false, bgGradient: "from-sky-50/40 to-blue-50/40 dark:from-sky-950/20 dark:to-blue-950/20", sortOrder: 2, categoryIndex: 1 },
-  { name: "茶杯狐", url: "https://cupfox.app/", description: "全网影视聚合搜索引擎", logoUrl: "https://cupfox.app/favicon.ico", tags: '["聚合搜索","全网"]', rating: 5, isHot: true, isRecommended: true, bgGradient: "from-amber-50/40 to-orange-50/40 dark:from-amber-950/20 dark:to-orange-950/20", sortOrder: 0, categoryIndex: 2 },
-  { name: "字幕库", url: "https://zimuku.org/", description: "字幕下载网站，提供海量中英文字幕", logoUrl: "https://zimuku.org/favicon.ico", tags: '["字幕","中英文"]', rating: 4, isHot: false, isRecommended: false, bgGradient: "from-teal-50/40 to-green-50/40 dark:from-teal-950/20 dark:to-green-950/20", sortOrder: 0, categoryIndex: 6 }
+  {
+    name: "饭搭子影视",
+    nameEn: "Fandazi Cinema",
+    url: "https://fdzys666.xyz/",
+    description: "最新热门电影电视剧动漫综艺体育免费观看",
+    descriptionEn: "Latest popular movies, TV series, anime, variety shows, and sports for free.",
+    logoUrl: "https://fdzys666.xyz/favicon.ico",
+    tags: '["最新","推荐","4K","资源丰富","高清"]',
+    tagsEn: '["Latest","Recommended","4K","Rich Resources","HD"]',
+    rating: 5,
+    isHot: true,
+    isRecommended: true,
+    bgGradient: "from-rose-50/40 to-pink-50/40 dark:from-rose-950/20 dark:to-pink-950/20",
+    sortOrder: 0,
+    categoryIndex: 0
+  },
+  {
+    name: "低端影视",
+    nameEn: "DDYS Streaming",
+    url: "https://ddys.io/",
+    description: "极简主义的高清影视站。无广告干扰，专注提供高码率观影体验。",
+    descriptionEn: "Minimalist HD streaming site. Ad-free, dedicated to high-bitrate viewing experience.",
+    logoUrl: "https://ddys.io/favicon.ico",
+    tags: '["免费","资源丰富","无广告"]',
+    tagsEn: '["Free","Rich Resources","Ad-Free"]',
+    rating: 5,
+    isHot: false,
+    isRecommended: false,
+    bgGradient: "from-orange-50/40 to-red-50/40 dark:from-orange-950/20 dark:to-red-950/20",
+    sortOrder: 1,
+    categoryIndex: 0
+  },
+  {
+    name: "SeedHub",
+    nameEn: "SeedHub",
+    url: "https://www.seedhub.cc/",
+    description: "影视&动漫分享平台，资源丰富，更新迅速",
+    descriptionEn: "Movie & Anime sharing platform with rich resources and rapid updates.",
+    logoUrl: "https://www.seedhub.cc/favicon.ico",
+    tags: '["动漫","综合","支持下载"]',
+    tagsEn: '["Anime","General","Download"]',
+    rating: 5,
+    isHot: true,
+    isRecommended: false,
+    bgGradient: "from-purple-50/40 to-pink-50/40 dark:from-purple-950/20 dark:to-pink-950/20",
+    sortOrder: 2,
+    categoryIndex: 0
+  },
+  {
+    name: "播剧网",
+    nameEn: "Boju Cinema",
+    url: "https://www.ysxq.cc/",
+    description: "最新电影在线观看，高清电视剧免费播放",
+    descriptionEn: "Latest online movies and HD TV series streaming for free.",
+    logoUrl: "https://www.ysxq.cc/favicon.ico",
+    tags: '["免费","无广告","资源丰富"]',
+    tagsEn: '["Free","Ad-Free","Rich Resources"]',
+    rating: 5,
+    isHot: true,
+    isRecommended: false,
+    bgGradient: "from-purple-50/40 to-pink-50/40 dark:from-purple-950/20 dark:to-pink-950/20",
+    sortOrder: 3,
+    categoryIndex: 0
+  },
+  {
+    name: "爱壹帆",
+    nameEn: "iYF TV",
+    url: "https://www.iyf.tv/",
+    description: "海量高清视频免费在线观看，海外华人观影首选",
+    descriptionEn: "Massive HD videos for free streaming, top choice for overseas viewers.",
+    logoUrl: "https://www.iyf.tv/favicon.ico",
+    tags: '["免费","资源丰富","海外推荐"]',
+    tagsEn: '["Free","Rich Resources","Overseas"]',
+    rating: 5,
+    isHot: false,
+    isRecommended: false,
+    bgGradient: "from-green-50/40 to-emerald-50/40 dark:from-green-950/20 dark:to-emerald-950/20",
+    sortOrder: 4,
+    categoryIndex: 0
+  },
+  {
+    name: "飞快TV",
+    nameEn: "Feikuai TV",
+    url: "https://feikuai.tv/",
+    description: "免费高清影视在线播放网盘下载",
+    descriptionEn: "Free HD movie and TV playback with cloud drive downloads.",
+    logoUrl: "https://feikuai.tv/favicon.ico",
+    tags: '["免费","资源丰富","网盘下载"]',
+    tagsEn: '["Free","Rich Resources","Cloud Drive"]',
+    rating: 5,
+    isHot: false,
+    isRecommended: false,
+    bgGradient: "from-orange-50/40 to-red-50/40 dark:from-orange-950/20 dark:to-red-950/20",
+    sortOrder: 5,
+    categoryIndex: 0
+  },
+  {
+    name: "电影先生",
+    nameEn: "Mr. Movie (DYXS)",
+    url: "https://www.dyxs.cc/",
+    description: "高清电影与热播电视剧在线极速观看",
+    descriptionEn: "HD movies and hit TV dramas streaming with high speed.",
+    logoUrl: "https://www.dyxs.cc/favicon.ico",
+    tags: '["免费","高清","极速"]',
+    tagsEn: '["Free","HD","Fast"]',
+    rating: 4,
+    isHot: false,
+    isRecommended: false,
+    bgGradient: "from-cyan-50/40 to-blue-50/40 dark:from-cyan-950/20 dark:to-blue-950/20",
+    sortOrder: 6,
+    categoryIndex: 0
+  },
+  {
+    name: "樱花动漫",
+    nameEn: "Sakura Anime",
+    url: "https://www.yhdmp.net/",
+    description: "专注动漫的门户网站，提供最新最全的动漫新番资源",
+    descriptionEn: "Specialized anime portal offering the latest and most comprehensive anime series.",
+    logoUrl: "https://www.yhdmp.net/favicon.ico",
+    tags: '["动漫","免费","更新快"]',
+    tagsEn: '["Anime","Free","Fast Updates"]',
+    rating: 5,
+    isHot: true,
+    isRecommended: true,
+    bgGradient: "from-pink-50/40 to-rose-50/40 dark:from-pink-950/20 dark:to-rose-950/20",
+    sortOrder: 0,
+    categoryIndex: 1
+  },
+  {
+    name: "AGE动漫",
+    nameEn: "AGE Anime",
+    url: "https://www.agemys.org/",
+    description: "AGE动漫专注于资源收集整理，海量有效高质量动漫资源",
+    descriptionEn: "AGE Anime specializes in curating massive high quality anime resources.",
+    logoUrl: "https://www.agemys.org/favicon.ico",
+    tags: '["动漫","高清","资源丰富"]',
+    tagsEn: '["Anime","HD","Rich Resources"]',
+    rating: 4,
+    isHot: false,
+    isRecommended: false,
+    bgGradient: "from-indigo-50/40 to-purple-50/40 dark:from-indigo-950/20 dark:to-purple-950/20",
+    sortOrder: 1,
+    categoryIndex: 1
+  },
+  {
+    name: "嘀哩嘀哩",
+    nameEn: "DiliDili",
+    url: "https://dilidili.ink/",
+    description: "二次元动漫网站，提供最新最快的动漫新番资源",
+    descriptionEn: "ACG anime streaming site providing the newest broadcast anime series.",
+    logoUrl: "https://dilidili.ink/favicon.ico",
+    tags: '["动漫","新番","免费"]',
+    tagsEn: '["Anime","Simulcast","Free"]',
+    rating: 4,
+    isHot: false,
+    isRecommended: false,
+    bgGradient: "from-sky-50/40 to-blue-50/40 dark:from-sky-950/20 dark:to-blue-950/20",
+    sortOrder: 2,
+    categoryIndex: 1
+  },
+  {
+    name: "茶杯狐",
+    nameEn: "Cupfox",
+    url: "https://cupfox.app/",
+    description: "全网影视聚合搜索引擎，一键搜索全网视频",
+    descriptionEn: "All-in-one streaming aggregator search engine across the web.",
+    logoUrl: "https://cupfox.app/favicon.ico",
+    tags: '["聚合搜索","全网","无广告"]',
+    tagsEn: '["Aggregator","Search","Ad-Free"]',
+    rating: 5,
+    isHot: true,
+    isRecommended: true,
+    bgGradient: "from-amber-50/40 to-orange-50/40 dark:from-amber-950/20 dark:to-orange-950/20",
+    sortOrder: 0,
+    categoryIndex: 2
+  },
+  {
+    name: "字幕库",
+    nameEn: "Zimuku",
+    url: "https://zimuku.org/",
+    description: "字幕下载网站，提供海量中英文字幕",
+    descriptionEn: "Subtitle download platform with massive bilingual movie & TV subtitles.",
+    logoUrl: "https://zimuku.org/favicon.ico",
+    tags: '["字幕","中英文","双语"]',
+    tagsEn: '["Subtitles","Bilingual","Translations"]',
+    rating: 4,
+    isHot: false,
+    isRecommended: false,
+    bgGradient: "from-teal-50/40 to-green-50/40 dark:from-teal-950/20 dark:to-green-950/20",
+    sortOrder: 0,
+    categoryIndex: 6
+  }
 ];
 
 function normalizeSite(s: any) {
@@ -51,6 +231,18 @@ function normalizeSite(s: any) {
     }
   }
 
+  let parsedTagsEn: string[] = [];
+  const rawTagsEn = s.tagsEn ?? s.tags_en;
+  if (Array.isArray(rawTagsEn)) {
+    parsedTagsEn = rawTagsEn;
+  } else if (typeof rawTagsEn === 'string') {
+    try {
+      parsedTagsEn = JSON.parse(rawTagsEn);
+    } catch {
+      parsedTagsEn = rawTagsEn ? rawTagsEn.split(',').map((t: string) => t.trim()) : [];
+    }
+  }
+
   return {
     id: s.id,
     categoryId: s.categoryId ?? s.category_id,
@@ -58,7 +250,7 @@ function normalizeSite(s: any) {
     name: s.name,
     nameEn: s.nameEn ?? s.name_en ?? null,
     name_en: s.nameEn ?? s.name_en ?? null,
-    description: s.description,
+    description: s.description || '',
     descriptionEn: s.descriptionEn ?? s.description_en ?? null,
     description_en: s.descriptionEn ?? s.description_en ?? null,
     url: s.url,
@@ -67,7 +259,8 @@ function normalizeSite(s: any) {
     logo_url: s.logoUrl ?? s.logo_url ?? s.logo ?? '',
     tags: parsedTags,
     tagsJson: typeof s.tags === 'string' ? s.tags : JSON.stringify(parsedTags),
-    tags_en: typeof s.tagsEn === 'string' ? s.tagsEn : (typeof s.tags_en === 'string' ? s.tags_en : '[]'),
+    tags_en: typeof rawTagsEn === 'string' ? rawTagsEn : JSON.stringify(parsedTagsEn),
+    tagsEn: typeof rawTagsEn === 'string' ? rawTagsEn : JSON.stringify(parsedTagsEn),
     rating: s.rating ?? 0,
     isHot: Boolean(s.isHot ?? s.is_hot),
     is_hot: Boolean(s.isHot ?? s.is_hot),
@@ -121,9 +314,6 @@ export async function seedDefaultData() {
       return {
         ...rest,
         categoryId: targetCat.id,
-        tagsEn: '[]',
-        descriptionEn: null,
-        nameEn: null,
       };
     });
 
@@ -193,19 +383,7 @@ export async function getNavData() {
       id: j + 1,
       categoryId: s.categoryIndex + 1,
       category_id: s.categoryIndex + 1,
-      name: s.name,
-      nameEn: null,
-      description: s.description,
-      descriptionEn: null,
-      url: s.url,
-      logoUrl: s.logoUrl,
-      tags: s.tags,
-      tagsEn: '[]',
-      rating: s.rating,
-      isHot: s.isHot,
-      isRecommended: s.isRecommended,
-      bgGradient: s.bgGradient,
-      sortOrder: s.sortOrder,
+      ...s,
       createdAt: new Date().toISOString(),
     }));
 

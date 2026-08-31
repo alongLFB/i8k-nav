@@ -7,7 +7,9 @@
     "subtitle_download": "Subtitle Download",
     "theme_light": "Switch to Light Mode",
     "theme_dark": "Switch to Dark Mode",
-    "language": "Switch Language"
+    "language": "Switch Language",
+    "tagline": "i8k.tv Video Hub",
+    "preview_site": "Preview Site"
   },
   "home": {
     "site_count_prefix": "A total of",
@@ -17,14 +19,28 @@
     "search_engine_site": "Site",
     "search_engine_douban": "Douban",
     "search_engine_imdb": "IMDb",
+    "search_engine_label": "Search Engine",
+    "select_search_engine": "Select search type",
+    "search_btn": "Search",
     "hot": "HOT",
     "recommended": "⭐ Recommended",
     "visit_site": "Visit Site",
-    "loading": "Loading data..."
+    "loading": "Loading data...",
+    "search_results": "Search Results",
+    "recommended_sites": "Recommended Sites",
+    "no_matching_sites": "No matching video websites found"
   },
   "about": {
     "title": "About i8K Video Nav",
-    "description": "i8K Video Nav gathers the highest quality free video websites on the internet."
+    "subtitle": "Dedicated to the Ultimate Video Resource Navigation Portal",
+    "description": "i8K Video Navigation (i8k.tv) brings together the highest quality free movie, TV series, anime, documentary, and subtitle websites on the web. We are committed to providing you with a clean, fast, and seamless streaming directory experience.",
+    "back_to_home": "Back to Home",
+    "feature_1_title": "Curated Sites",
+    "feature_1_desc": "Hand-picked high quality streaming sites, removing invalid or low-quality links.",
+    "feature_2_title": "Multi-category",
+    "feature_2_desc": "Covers comprehensive video, anime series, dramas, cloud resources across 10+ categories.",
+    "feature_3_title": "Smart Search",
+    "feature_3_desc": "Instant fuzzy site search plus one-click Douban & IMDb quick movie query."
   },
   "admin": {
     "loading": "Loading admin dashboard...",
@@ -38,6 +54,9 @@
     "category_delete_success": "Category deleted!",
     "site_save_success": "Site saved successfully!",
     "site_delete_success": "Site deleted!",
+    "settings_save_success": "Settings saved successfully!",
+    "save_failed": "Failed to save",
+    "delete_failed": "Failed to delete",
     "op_failed": "Operation failed",
     "tabs": {
       "settings": "Global Settings",
@@ -53,12 +72,18 @@
       "footer_copyright": "Footer Copyright (ZH)",
       "footer_copyright_en": "Footer Copyright (EN)",
       "save_btn": "Save Settings",
+      "saving": "Saving...",
       "save_success": "Settings saved successfully!"
     },
     "categories": {
       "list_title": "Category List",
       "add_btn": "Add Category",
-      "sort_order": "Sort Weight",
+      "edit_btn": "Edit",
+      "delete_btn": "Delete",
+      "icon_col": "Icon",
+      "name_col": "Name (ZH/EN)",
+      "sort_col": "Sort",
+      "actions_col": "Actions",
       "modal_add": "Add Category",
       "modal_edit": "Edit Category",
       "title_zh": "Category Name (ZH)",
@@ -67,28 +92,51 @@
       "sort_hint": "Sort Weight (smaller number comes first)",
       "cancel": "Cancel",
       "save": "Save",
-      "delete_confirm": "Are you sure you want to delete this category and all its sites?"
+      "saving": "Saving...",
+      "empty": "No categories found",
+      "delete_confirm": "Are you sure you want to delete this category? Associated sites will also be affected."
     },
     "sites": {
-      "select_category": "Select Category:",
+      "list_title": "Site Management",
+      "all_categories": "All Categories",
+      "select_category": "Category",
+      "select_category_placeholder": "Select Category",
       "add_btn": "Add Site",
-      "sort_order": "Sort Order",
+      "edit_btn": "Edit",
+      "delete_btn": "Delete",
+      "sort_order": "Sort Order (smaller first)",
       "modal_add": "Add Site",
       "modal_edit": "Edit Site",
-      "category_belong": "Category",
       "name_zh": "Site Name (ZH)",
       "name_en": "Site Name (EN)",
       "desc_zh": "Description (ZH)",
       "desc_en": "Description (EN)",
       "url_label": "Site URL",
-      "logo_url_label": "Logo URL (favicon)",
+      "logo_url_label": "Logo URL (Favicon / Image)",
       "tags_zh": "Tags (ZH, comma separated)",
       "tags_en": "Tags (EN, comma separated)",
+      "tags_zh_placeholder": "Latest, 4K, Recommended",
+      "tags_en_placeholder": "Latest, 4K, Recommended",
       "rating_label": "Star Rating (0-5)",
-      "is_hot": "HOT Mark",
+      "is_hot": "HOT (Trending Mark)",
       "is_recommended": "Recommended Mark",
-      "bg_gradient": "Background Gradient CSS",
+      "bg_gradient": "Background Gradient",
+      "custom_gradient_placeholder": "Custom tailwind gradient class...",
+      "cancel": "Cancel",
+      "save": "Save",
+      "saving": "Saving...",
+      "empty": "No sites in this category",
       "delete_confirm": "Are you sure you want to delete this site?"
+    },
+    "presets": {
+      "rose": "Rose Pink",
+      "orange": "Orange Red",
+      "purple": "Purple Pink",
+      "green": "Emerald",
+      "cyan": "Sky Blue",
+      "indigo": "Indigo",
+      "amber": "Amber",
+      "sky": "Azure"
     }
   },
   "login": {
@@ -112,6 +160,7 @@
     "backToHome": "← Back to Home"
   },
   "footer": {
-    "copyright": "© 2026 i8K Video Nav. All rights reserved."
+    "copyright": "© 2026 i8K Video Navigation (i8k.tv). All rights reserved.",
+    "disclaimer": "This site is a video navigation directory, providing index links only, and does not host any video files."
   }
 }

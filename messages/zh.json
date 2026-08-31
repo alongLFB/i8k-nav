@@ -7,7 +7,9 @@
     "subtitle_download": "字幕下载",
     "theme_light": "切换至浅色模式",
     "theme_dark": "切换至暗色模式",
-    "language": "语言切换"
+    "language": "语言切换",
+    "tagline": "i8k.tv 聚合导航",
+    "preview_site": "预览前台"
   },
   "home": {
     "site_count_prefix": "共收录",
@@ -17,20 +19,34 @@
     "search_engine_site": "站内",
     "search_engine_douban": "豆瓣",
     "search_engine_imdb": "IMDb",
+    "search_engine_label": "搜索引擎",
+    "select_search_engine": "选择搜索类型",
+    "search_btn": "搜索",
     "hot": "HOT",
     "recommended": "⭐ 推荐",
     "visit_site": "访问网站",
-    "loading": "数据加载中..."
+    "loading": "数据加载中...",
+    "search_results": "搜索结果",
+    "recommended_sites": "推荐站点",
+    "no_matching_sites": "没有找到匹配的影视网站"
   },
   "about": {
     "title": "关于 i8K影视导航",
-    "description": "i8K影视导航汇聚全网最优质的免费影视网站。"
+    "subtitle": "专注打造极致便捷的影视资源索引入口",
+    "description": "i8K影视导航(i8k.tv)汇聚全网最优质的免费影视网站，包括电影、电视剧、动漫、纪录片、综艺、字幕工具等各类资源导航。我们致力于为您提供无广告、高品质、极速流畅的观影导航体验。",
+    "back_to_home": "返回首页",
+    "feature_1_title": "精选收录",
+    "feature_1_desc": "人工筛选优质影视站点，剔除劣质与失效链接，保证稳定可用。",
+    "feature_2_title": "多维分类",
+    "feature_2_desc": "覆盖综合影视、动漫番剧、电视剧、网盘资源等 10+ 细分专区。",
+    "feature_3_title": "智能检索",
+    "feature_3_desc": "支持站内即时模糊检索与豆瓣、IMDb 一键聚合电影直达。"
   },
   "admin": {
     "loading": "管理后台加载中...",
     "dashboard_title": "i8K影视导航 · 后台管理",
     "dashboard_subtitle": "分类管理与影视网站全能控制面板",
-    "preview_site": "预览前台",
+    "preview_site": "预览站点",
     "logout": "退出登录",
     "load_error": "加载数据失败",
     "fetch_sites_error": "获取网站列表失败",
@@ -38,6 +54,9 @@
     "category_delete_success": "分类已删除！",
     "site_save_success": "网站保存成功！",
     "site_delete_success": "网站已删除！",
+    "settings_save_success": "设置保存成功！",
+    "save_failed": "保存失败",
+    "delete_failed": "删除失败",
     "op_failed": "操作失败",
     "tabs": {
       "settings": "全站设置",
@@ -53,42 +72,71 @@
       "footer_copyright": "页脚版权 (中文)",
       "footer_copyright_en": "页脚版权 (英文)",
       "save_btn": "保存设置",
+      "saving": "保存中...",
       "save_success": "设置保存成功！"
     },
     "categories": {
       "list_title": "分类列表",
-      "add_btn": "新增分类",
-      "sort_order": "排序权重",
-      "modal_add": "新增分类",
+      "add_btn": "添加分类",
+      "edit_btn": "编辑",
+      "delete_btn": "删除",
+      "icon_col": "图标",
+      "name_col": "名称 (中/英)",
+      "sort_col": "排序",
+      "actions_col": "操作",
+      "modal_add": "添加分类",
       "modal_edit": "编辑分类",
-      "title_zh": "中文分类名称",
-      "title_en": "英文分类名称",
+      "title_zh": "名称 (中文)",
+      "title_en": "名称 (英文)",
       "emoji_label": "Emoji 图标",
       "sort_hint": "排序权重 (数字越小越靠前)",
       "cancel": "取消",
       "save": "保存",
-      "delete_confirm": "确定要删除该分类及其下所有网站吗？"
+      "saving": "保存中...",
+      "empty": "暂无分类",
+      "delete_confirm": "确定要删除该分类吗？关联的网站也会受影响。"
     },
     "sites": {
-      "select_category": "选择分类：",
-      "add_btn": "新增网站",
-      "sort_order": "排序",
-      "modal_add": "新增网站",
+      "list_title": "网站管理",
+      "all_categories": "所有分类",
+      "select_category": "所属分类",
+      "select_category_placeholder": "请选择分类",
+      "add_btn": "添加网站",
+      "edit_btn": "编辑",
+      "delete_btn": "删除",
+      "sort_order": "排序 (越小越靠前)",
+      "modal_add": "添加网站",
       "modal_edit": "编辑网站",
-      "category_belong": "所属分类",
-      "name_zh": "网站名称 (中文)",
-      "name_en": "网站名称 (英文)",
+      "name_zh": "名称 (中文)",
+      "name_en": "名称 (英文)",
       "desc_zh": "描述 (中文)",
       "desc_en": "描述 (英文)",
       "url_label": "网站 URL",
-      "logo_url_label": "Logo URL (favicon)",
+      "logo_url_label": "Logo URL (图标地址)",
       "tags_zh": "标签 (中文，逗号分隔)",
       "tags_en": "标签 (英文，逗号分隔)",
+      "tags_zh_placeholder": "最新, 4K, 推荐",
+      "tags_en_placeholder": "Latest, 4K, Recommended",
       "rating_label": "星级评分 (0-5)",
-      "is_hot": "HOT 标记",
+      "is_hot": "HOT (热门标记)",
       "is_recommended": "推荐标记",
-      "bg_gradient": "背景渐变 CSS",
-      "delete_confirm": "确定要删除该网站吗？"
+      "bg_gradient": "背景渐变色",
+      "custom_gradient_placeholder": "自定义 tailwind 渐变类...",
+      "cancel": "取消",
+      "save": "保存",
+      "saving": "保存中...",
+      "empty": "此分类下暂无网站",
+      "delete_confirm": "确定要删除此网站吗？"
+    },
+    "presets": {
+      "rose": "玫瑰粉",
+      "orange": "橙红",
+      "purple": "紫粉",
+      "green": "翠绿",
+      "cyan": "天蓝",
+      "indigo": "靛蓝",
+      "amber": "琥珀",
+      "sky": "天空"
     }
   },
   "login": {
@@ -112,6 +160,7 @@
     "backToHome": "← 返回首页"
   },
   "footer": {
-    "copyright": "© 2026 i8K影视导航. All rights reserved."
+    "copyright": "© 2026 i8K影视导航 (i8k.tv). All rights reserved.",
+    "disclaimer": "本站为影视导航聚合网站，仅提供网站索引链接，不存储任何视频资源。"
   }
 }
