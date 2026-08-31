@@ -86,7 +86,14 @@ export default function SiteLogo({
     return () => clearTimeout(timer);
   }, [stage, handleError, hasLoaded]);
 
-  const char = (name || 'V').trim().charAt(0).toUpperCase();
+  const getFirstGrapheme = (str: string) => {
+    const trimmed = (str || 'V').trim();
+    if (!trimmed) return 'V';
+    const chars = Array.from(trimmed);
+    return chars[0] || 'V';
+  };
+
+  const char = getFirstGrapheme(name).toUpperCase();
 
   let currentSrc = '';
   if (stage === 0) {

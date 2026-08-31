@@ -46,7 +46,7 @@ export default function HomeClient({ categories, sites, settings, locale }: Home
 
         <div className="flex gap-8 items-start relative">
           <div className="hidden lg:block w-56 shrink-0">
-            <div className="sticky top-28">
+            <div className="sticky top-20">
               <CategorySidebar 
                 categories={categories} 
                 selectedId={selectedCategoryId} 
