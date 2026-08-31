@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useCallback } from 'react';
 import { useRouter } from 'next/navigation';
 import { useTranslations, useLocale } from 'next-intl';
 import { Shield, Settings, FolderOpen, Globe, Plus, Edit2, Trash2, LogOut, Check, X, Loader2, Star, ExternalLink } from 'lucide-react';
@@ -77,24 +77,12 @@ export default function AdminDashboard() {
   const locale = useLocale();
   const isEn = locale === 'en';
 
-  useEffect(() => {
-    checkAuth();
-  }, []);
-
-  const checkAuth = async () => {
-    try {
-      const res = await fetch('/api/auth/me');
-      if (!res.ok) {
-        router.push(`/${locale}/admin/login`);
-        return;
-      }
-      fetchData();
-    } catch (error) {
-      router.push(`/${locale}/admin/login`);
-    }
+  const showToast = (message: string, type: 'success' | 'error') => {
+    setToast({ message, type });
+    setTimeout(() => setToast(null), 3000);
   };
 
-  const fetchData = async () => {
+  const fetchData = useCallback(async () => {
     setLoading(true);
     try {
       const [catsRes, sitesRes, setsRes] = await Promise.all([
@@ -112,12 +100,24 @@ export default function AdminDashboard() {
     } finally {
       setLoading(false);
     }
-  };
+  }, [t]);
 
-  const showToast = (message: string, type: 'success' | 'error') => {
-    setToast({ message, type });
-    setTimeout(() => setToast(null), 3000);
-  };
+  const checkAuth = useCallback(async () => {
+    try {
+      const res = await fetch('/api/auth/me');
+      if (!res.ok) {
+        router.push(`/${locale}/admin/login`);
+        return;
+      }
+      fetchData();
+    } catch (error) {
+      router.push(`/${locale}/admin/login`);
+    }
+  }, [fetchData, locale, router]);
+
+  useEffect(() => {
+    checkAuth();
+  }, [checkAuth]);
 
   const handleLogout = async () => {
     await fetch('/api/auth/logout', { method: 'POST' });

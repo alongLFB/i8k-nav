@@ -1,6 +1,6 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { useRouter } from 'next/navigation';
 import { useTranslations, useLocale } from 'next-intl';
 import { Shield, Loader2, Eye, EyeOff, ArrowLeft } from 'lucide-react';
@@ -14,10 +14,22 @@ export default function AdminLogin() {
   const [error, setError] = useState('');
   const [remainingAttempts, setRemainingAttempts] = useState<number | null>(null);
   const [lockoutTime, setLockoutTime] = useState<number | null>(null);
+  const [now, setNow] = useState<number>(0);
   const [showPassword, setShowPassword] = useState(false);
   const router = useRouter();
   const t = useTranslations('login');
   const locale = useLocale();
+
+  useEffect(() => {
+    if (!lockoutTime) return;
+    setNow(Date.now());
+    const timer = setInterval(() => {
+      setNow(Date.now());
+    }, 1000);
+    return () => clearInterval(timer);
+  }, [lockoutTime]);
+
+  const isLockedOut = lockoutTime !== null && now < lockoutTime;
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -95,7 +107,7 @@ export default function AdminLogin() {
                 onChange={(e) => setPassword(e.target.value)}
                 placeholder={t('passwordPlaceholder')}
                 className="w-full pl-4 pr-12 py-3 text-sm rounded-xl border border-gray-200 dark:border-gray-700 bg-gray-50 dark:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-orange-500 dark:text-white transition-all"
-                disabled={loading || (lockoutTime !== null && Date.now() < lockoutTime)}
+                disabled={loading || isLockedOut}
               />
               <button
                 type="button"
@@ -118,7 +130,7 @@ export default function AdminLogin() {
 
           <button
             type="submit"
-            disabled={loading || (lockoutTime !== null && Date.now() < lockoutTime) || !password}
+            disabled={loading || isLockedOut || !password}
             className="w-full py-3 px-4 bg-linear-to-r from-orange-500 to-red-600 hover:from-orange-600 hover:to-red-700 text-white rounded-xl text-sm font-semibold shadow-md shadow-orange-500/20 focus:outline-none focus:ring-2 focus:ring-orange-500 disabled:opacity-50 disabled:cursor-not-allowed transition-all flex items-center justify-center gap-2"
           >
             {loading && <Loader2 size={18} className="animate-spin" />}

@@ -51,16 +51,17 @@ export default function SiteLogo({
     setHasLoaded(false);
   }, [domain]);
 
-  useEffect(() => {
-    if (logoUrl && logoUrl.trim() && !logoUrl.includes('placeholder')) {
-      setStage(0);
-    } else if (domain) {
-      setStage(1);
-    } else {
-      setStage(3);
-    }
+  const [prevProps, setPrevProps] = useState({ logoUrl, url, domain });
+  if (prevProps.logoUrl !== logoUrl || prevProps.url !== url || prevProps.domain !== domain) {
+    setPrevProps({ logoUrl, url, domain });
+    const initialStage = (logoUrl && logoUrl.trim() && !logoUrl.includes('placeholder'))
+      ? 0
+      : domain
+      ? 1
+      : 3;
+    setStage(initialStage);
     setHasLoaded(false);
-  }, [logoUrl, url, domain]);
+  }
 
   // Check pre-hydration image load status & add safety timeout
   useEffect(() => {
